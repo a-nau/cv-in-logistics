@@ -1,8 +1,14 @@
+[![arxiv](http://img.shields.io/badge/paper-arxiv.2304.06009-B31B1B.svg)](https://arxiv.org/abs/2304.06009)
+
 # Literature Review Website
+
+Code for the online literature review website of our paper.
+
+![](public/table.png)
 
 ## Usage
 
-Build
+Use the `devcontainer` or Docker and build
 
 ```
 jekyll build --incremental
