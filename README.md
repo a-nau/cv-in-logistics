@@ -20,6 +20,20 @@ and then serve
 jekyll serve --livereload --baseurl ""
 ```
 
+## Citation
+
+If you use this work for scientific research, please consider citing
+
+```latex
+@online{naumannLiteratureReviewComputer2023,
+    title        = {Literature {{Review}}: {{Computer Vision Applications}} in {{Transportation Logistics}} and {{Warehousing}}},
+    author       = {Naumann, Alexander and Hertlein, Felix and Dörr, Laura and Thoma, Steffen and Furmans, Kai},
+    url          = {http://arxiv.org/abs/2304.06009},
+    eprinttype   = {arxiv},
+    pubstate     = {preprint}
+}
+```
+
 ## Credits & License
 
 - [Lanyon](https://github.com/poole/lanyon/) Jekyll Template: [MIT](https://github.com/poole/lanyon/blob/master/LICENSE.md) License
