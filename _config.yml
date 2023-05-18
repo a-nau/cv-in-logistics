@@ -1,0 +1,24 @@
+# Setup
+title: Computer Vision in Logistics
+tagline: ""
+description: 'Online overview of our <a href="https://arxiv.org/abs/2304.06009" target="_blank">literature review</a> on Computer Vision Applications in Transportation Logistics and Warehousing. By <a href="https://a-nau.github.io" target="_blank">a-nau</a>.'
+url: https://a-nau.github.io
+baseurl: /cv-in-logistics
+paginate: 5
+permalink: pretty
+
+# About/contact
+author:
+  name: Alexander Naumann
+  url: https://a-nau.github.io
+  email:
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+permalink: /:title
+
+# Custom vars
+version: 1.1.0
+google_analytics_id: #UA-XXXX-Y

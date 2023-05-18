@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<a
+  class="github-fork-ribbon"
+  href="https://github.com/a-nau/cv-in-logistics/tree/main/_posts/{{page.name}}"
+  data-ribbon="Edit me on GitHub"
+  title="Edit me on GitHub"
+>
+  Edit me on GitHub
+</a>
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <span class="post-date">{{ page.date | date_to_string }}</span>
+  <b>Authors:</b> {{page.authors}}
+  <br />
+  <b>Venue:</b> {{page.venue}}
+  <br />
+  <b>Links:</b> {% include components/url_chips.html urls=page.urls %}
+  <br />
+  {{ content }}
+</div>

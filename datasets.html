@@ -1,0 +1,22 @@
+---
+layout: default_wide
+title: Datasets
+---
+
+<h1>Datasets</h1>
+
+<ul>
+  <li>
+    Contributions are very welcome on, see
+    <a href="contribute">here</a> for more information.
+  </li>
+</ul>
+<br />
+<br />
+<div id="dataset-table"></div>
+<div style="height: 20vh"></div>
+
+<script type="text/javascript">
+  let tabledata = {{ site.data.paper_details | jsonify}}
+  load_dataset_table("#dataset-table", tabledata)
+</script>

@@ -1,0 +1,224 @@
+.github-fork-ribbon:before {
+    background-color: #333;
+}
+
+.category-list span:last-child {
+    display: none;
+}
+.eac-item {
+    color: black;
+}
+
+.tabulator-wrap, .tabulator-responsive-collapse td {
+    white-space: pre-wrap !important;      /* CSS3 */
+    white-space: -moz-pre-wrap !important; /* Firefox */
+    white-space: -pre-wrap !important;     /* Opera <7 */
+    white-space: -o-pre-wrap !important;   /* Opera 7 */
+    word-wrap: break-word !important;      /* IE */
+}
+
+.tabulator .tabulator-header {
+    padding-left: 0;
+}
+
+.tabulator-chips:not([role="columnheader"])  {
+    color: white
+}
+
+.tabulator-chip {
+    background-color: rgb(81, 101, 132);
+    color: white;
+    border-radius: 3px;
+    margin: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+    display: inline;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 1.7em;
+}
+
+.tabulator-authors {
+    color: gray;
+    font-size: 0.8em;
+    
+}
+
+.literature-wide {
+
+}
+
+@media screen and (min-width: 1200px) {
+  /* your styles here */
+.literature-wide {
+    width: 75vw; 
+    max-width: unset;
+}
+}
+
+/* Applications */ 
+/* 
+.tabulator-chip-tracking-and-tracing {
+    background-color: red;
+}
+
+.tabulator-chip-item-recognition {
+    background-color: green;
+}
+
+.tabulator-chip-label-recognition {
+    background-color: yellow;
+}
+
+.tabulator-chip-volume-estimation {
+    background-color: orange;
+}
+
+.tabulator-chip-depalletization {
+    background-color: teal;
+}
+
+.tabulator-chip-verify-completeness {
+    background-color: black;
+}
+
+.tabulator-chip-verify-occupancy {
+    background-color: aquamarine;
+}
+
+.tabulator-chip-damage-and-tampering-detection {
+    background-color: brown;
+}
+
+.tabulator-chip-pallet-handling {
+    background-color: aqua;
+}
+
+.tabulator-chip-safety {
+    background-color: blueviolet;
+}
+
+.tabulator-chip-order-picking {
+    background-color: aliceblue;
+}
+
+.tabulator-chip-packaging-for-shipment {
+    background-color: aquamarine;
+} */
+
+/* Approach types */ 
+/* .tabulator-chip-deep-learning {
+    background-color: green;
+}
+
+.tabulator-chip-classical-approach {
+    background-color: darkcyan;
+}
+
+.tabulator-chip-pattern-matching{
+    background-color: darkcyan;
+}
+
+.tabulator-chip-fiducial-markers {
+    background-color: darkcyan;
+}
+
+/* CV task */ 
+/*
+.tabulator-chip-3d-dimension-estimation {
+    background-color: aquamarine;
+}
+
+.tabulator-chip-pointcloud-segmetation {
+    background-color: aquamarine;
+}
+
+.tabulator-chip-keypoint-matching {
+    background-color: aquamarine;
+}
+
+.tabulator-chip-augmented-reality {
+    background-color: aquamarine;
+}
+
+.tabulator-chip-object-re-identification {
+    background-color: aquamarine;
+}
+
+.tabulator-chip-instance-segmentation {
+    background-color: aquamarine;
+}
+
+.tabulator-chip-3d-object-detection{
+    background-color: aquamarine;
+}
+
+.tabulator-chip-object-detection {
+    background-color: aquamarine;
+}
+
+.tabulator-chip-object-tracking {
+    background-color: aquamarine;
+}
+
+.tabulator-chip-edge-detection {
+    background-color: aliceblue;
+}
+
+.tabulator-chip-plane-segmentation {
+    background-color: aliceblue;
+}
+
+.tabulator-chip-activity-recognition {
+    background-color: aliceblue;
+}
+
+.tabulator-chip-3d-shape-reconstruction {
+    background-color: aliceblue;
+} */
+
+/* objects */ 
+
+/* .tabulator-chip-pallet {
+    background-color: aqua;
+}
+
+.tabulator-chip-parcel {
+    background-color: aqua;
+}
+
+.tabulator-chip-label {
+    background-color: aqua;
+}
+
+.tabulator-chip-arbitrary {
+    background-color: aqua;
+}
+
+.tabulator-chip-small-load-carrier {
+    background-color: aqua;
+}
+
+.tabulator-chip-conveyor-belt {
+    background-color: aqua;
+}
+
+.tabulator-chip-multiple {
+    background-color: aqua;
+}
+
+.tabulator-chip-fork-lift {
+    background-color: aqua;
+}
+
+.tabulator-chip-other {
+    background-color: aqua;
+}
+
+.tabulator-chip-container-trailer {
+    background-color: aliceblue;
+}
+
+.tabulator-chip-other-packaging {
+    background-color: aqua;
+} */

@@ -1,0 +1,64 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" />
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>{{ site.description }}</p>
+    <!-- <input id="search_bar" placeholder="Search ..." style="width: 200px" /> -->
+  </div>
+
+  <nav class="sidebar-nav">
+    <a
+      class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}"
+      href="{{ '/' | absolute_url }}"
+      >Literature Review</a
+    >
+    <a class="sidebar-nav-item" href="{{ 'datasets' | absolute_url}}">
+      Datasets
+    </a>
+    <a class="sidebar-nav-item" href="{{ 'industry_solutions' | absolute_url}}">
+      Industry Solutions
+    </a>
+    <a class="sidebar-nav-item" href="{{ 'categorization' | absolute_url}}">
+      Categorization
+    </a>
+    <a class="sidebar-nav-item" href="{{ 'contribute' | absolute_url}}">
+      Contribute
+    </a>
+    <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a> -->
+    <!-- <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
+  </nav>
+
+  <div class="sidebar-item">
+    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+  </div>
+</div>
+
+<!-- <script type="text/javascript" charset="utf-8">
+      var options = {
+    data: {{ site.data.paper_details | jsonify }},
+    getValue: function (element) {
+      return element.authors_short + " " + element.year;
+    },
+    list: {
+      maxNumberOfElements: 5,
+      match: {
+        enabled: true,
+      },
+      sort: {
+        enabled: true,
+      },
+      onChooseEvent: function () {
+        var selectedItemData = $("#search_bar").getSelectedItemData();
+        window.location.href =
+          window.location.origin + "/" + selectedItemData.id;
+      },
+    },
+  };
+
+  $(function () {
+    $("#search_bar").easyAutocomplete(options);
+  });
+</script> -->

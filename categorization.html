@@ -1,0 +1,33 @@
+---
+layout: page
+title: Categorization
+---
+
+We have the following categories:
+<br />
+<br />
+{% for category in site.data.tags %}
+
+<b>{{ category[0] }}:</b>
+<span class="category-list">
+  {% for item in category[1] %}
+  <span>{{ item[1] }}</span><span>,</span>
+  {% endfor %}
+</span>
+<br />
+<br />
+
+{% endfor %}
+
+<h2>Mapping</h2>
+<div class="language-yaml highlighter-rouge">
+  <div class="highlight">
+    <pre class="highlight">
+      <code>
+{% for category in site.data.tags %}
+<span class="na">{{category[0]}}</span><span class="pi">:</span>{% for item in category[1] %}
+  <span class="na">{{item[0]}}</span><span class="pi">:</span> <span class="s">{{ item[1] }}</span>{% endfor %}{% endfor %}
+      </code>
+    </pre>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+{
+    "name": "Jekyll",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "esbenp.prettier-vscode",
+                "ecmel.vscode-html-css",
+                "ms-azuretools.vscode-docker",
+                "dedsec727.jekyll-run",
+                "ginfuru.ginfuru-vscode-jekyll-syntax",
+                "ginfuru.vscode-jekyll-snippets",
+                "rebornix.Ruby",
+                "ms-toolsai.jupyter",
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-python.black-formatter",
+                "mhutchie.git-graph"
+            ]
+        }
+    },
+    "mounts": [
+        // "source=${env:USERPROFILE}/.gitconfig,target=/root/.gitconfig,type=bind,consistency=cached" // Windows only to use Git credentials
+    ],
+}

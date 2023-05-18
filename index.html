@@ -1,0 +1,27 @@
+---
+layout: default_wide
+title: Literature Review
+---
+
+<h1>Literature Review</h1>
+
+<ul>
+  <li>
+    For an overview of the categorizations used, see
+    <a href="categorization">here</a>.
+  </li>
+  <li>
+    Contributions are very welcome on, see
+    <a href="contribute">here</a> for more information.
+  </li>
+</ul>
+<br />
+<br />
+
+<div id="paper-table"></div>
+<div style="height: 20vh"></div>
+
+<script type="text/javascript">
+  let tabledata = {{ site.data.paper_details | jsonify}}
+  load_paper_table("#paper-table", tabledata)
+</script>

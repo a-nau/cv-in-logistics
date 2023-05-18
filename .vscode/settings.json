@@ -1,0 +1,21 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.egg-info": true
+    },
+    "python.autoComplete.extraPaths": [
+        "./src"
+    ],
+    "python.analysis.extraPaths": [
+        "./src"
+    ],
+    "notebook.output.textLineLimit": 200,
+    "[javascript]": {    
+         "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true 
+    }
+}

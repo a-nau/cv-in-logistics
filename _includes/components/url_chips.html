@@ -1,0 +1,55 @@
+{% assign urls = include.urls %}
+<!-- split -->
+{% if urls.project != "" %}
+<a href="{{urls.project}}" target="_blank">
+  <span style="margin-right: 10px">
+    <i class="bi bi-globe"></i>
+    Project Page
+  </span>
+</a>
+{% endif %}
+<!-- split -->
+{% if urls.paper != ""%}
+<a href="{{urls.paper}}" target="_blank">
+  <span style="margin-right: 10px">
+    <i class="bi bi-file-text"></i>
+    Paper
+  </span>
+</a>
+{% endif %}
+<!-- split -->
+{% if urls.arxiv != "" %}
+<a href="{{urls.arxiv}}" target="_blank">
+  <span style="margin-right: 10px">
+    <i class="bi bi-file-earmark-arrow-down"></i>
+    Code
+  </span>
+</a>
+{% endif %}
+<!-- split -->
+{% if urls.code != "" %}
+<a href="{{urls.code}}" target="_blank">
+  <span style="margin-right: 10px">
+    <i class="bi bi-github"></i>
+    Code
+  </span>
+</a>
+{% endif %}
+<!-- split -->
+{% if urls.venue != "" %}
+<a href="{{urls.venue}}" target="_blank">
+  <span style="margin-right: 10px">
+    <i class="bi bi-globe-europe-africa"></i>
+    Venue
+  </span>
+</a>
+{% endif %}
+<!-- split -->
+{% if urls.dataset != "" %}
+<a href="{{urls.dataset}}" target="_blank">
+  <span style="margin-right: 10px">
+    <i class="bi bi-images"></i>
+    Dataset
+  </span>
+</a>
+{% endif %}
