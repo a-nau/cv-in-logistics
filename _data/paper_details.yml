@@ -1273,6 +1273,52 @@
   - Fiducial Markers
   - Classical Approach
   Application: []
+- id: mishraDevelopmentLowcostEmbedded2019
+  authors: Vaishali Mishra, Harsh K Kapadia, Tanish H Zaveri, Bhanu Prasad Pinnamaneni
+  year: 2018
+  title: Development of Low-Cost Embedded Vision System with a Case Study on 1D Barcode
+    Detection
+  venue: Information and Communication Technology for Intelligent Systems (ICTIS)
+  urls:
+    paper: https://link.springer.com/chapter/10.1007/978-981-13-1742-2_50
+    project: ''
+    arxiv: ''
+    code: ''
+    dataset: ''
+    venue: ''
+  dataset:
+    name: ''
+    comment: ''
+    description: ''
+  bibtex: "@inproceedings{mishra2019development,\n    title        = {Development\
+    \ of Low-Cost Embedded Vision System with a Case Study on 1D Barcode Detection},\n\
+    \    author       = {Mishra, Vaishali and Kapadia, Harsh K and Zaveri, Tanish\
+    \ H and Pinnamaneni, Bhanu Prasad},\n    year         = 2019,\n    booktitle \
+    \   = {Information and Communication Technology for Intelligent Systems: Proceedings\
+    \ of ICTIS 2018, Volume 1},\n    pages        = {505--513},\n    organization\
+    \ = {Springer}\n}\n"
+  summary: low cost embedded vision system for the detection of 1D barcodes
+  abstract: In the trend of miniaturization and smart systems/devices, many industries
+    are still working with comparatively large and costly computer-based system as
+    compared to embedded systems. The work discussed in the paper focuses on development
+    on a small, low-cost, less power-consuming embedded vision-based one-dimensional
+    barcode detection and decoding system by fusion of camera and embedded system.
+    1D barcodes are prevalent in retail, pharma, automobile, and many other industries
+    for automatic product identification. Real-time application of 1D barcode localization
+    and decoding algorithm in Python using OpenCV library was developed. Image processing
+    task will be performed by embedded systems, which proves that the performance
+    of embedded systems is comparable to a computer. Results of barcode detection
+    and computation time comparison over different hardware platforms are discussed
+    in the results.
+  Objects:
+  - Label
+  CV Tasks: []
+  Data Type:
+  - RGB
+  Approach Type:
+  - Classical Approach
+  Application:
+  - Label Recognition
 - id: mohamedDetectionLocalisationTracking2020
   authors: Ihab S. Mohamed, Alessio Capitanelli, Fulvio Mastrogiovanni, Stefano Rovetta,
     Renato Zaccaria
@@ -1438,9 +1484,9 @@
     and Warehousing'
   venue: arxiv
   urls:
-    paper: https://doi.org/10.48550/arXiv.2304.06009
+    paper: ''
     project: https://a-nau.github.io/cv-in-logistics
-    arxiv: ''
+    arxiv: https://doi.org/10.48550/arXiv.2304.06009
     code: https://github.com/a-nau/cv-in-logistics
     dataset: ''
     venue: ''
@@ -1448,13 +1494,12 @@
     name: ''
     comment: ''
     description: ''
-  bibtex: "@online{naumannLiteratureReviewComputer2023,\n author = {Naumann, Alexander\
-    \ and Hertlein, Felix and Dörr, Laura and Thoma, Steffen and Furmans, Kai},\n\
-    \ date = {2023-04-12},\n doi = {10.48550/arXiv.2304.06009},\n eprint = {2304.06009},\n\
-    \ eprintclass = {cs},\n eprinttype = {arxiv},\n pubstate = {preprint},\n shorttitle\
-    \ = {Literature {{Review}}},\n title = {Literature {{Review}}: {{Computer Vision\
-    \ Applications}} in {{Transportation Logistics}} and {{Warehousing}}},\n url =\
-    \ {http://arxiv.org/abs/2304.06009},\n urldate = {2023-04-13}\n}\n"
+  bibtex: "@online{naumannLiteratureReviewComputer2023,\n    title        = {Literature\
+    \ {{Review}}: {{Computer Vision Applications}} in {{Transportation Logistics}}\
+    \ and {{Warehousing}}},\n    author       = {Naumann, Alexander and Hertlein,\
+    \ Felix and Dörr, Laura and Thoma, Steffen and Furmans, Kai},\n    url       \
+    \   = {http://arxiv.org/abs/2304.06009},\n    eprinttype   = {arxiv},\n    pubstate\
+    \     = {preprint}\n}\n"
   summary: Literature review on applications of computer vision in transportation
     logistics and warehousing
   abstract: 'Computer vision applications in transportation logistics and warehousing
@@ -1486,27 +1531,26 @@
   year: 2023
   title: 'Parcel3D: Shape Reconstruction from Single RGB Images for Applications in
     Transportation Logistics'
-  venue: arxiv (accepted at CVPRW '23)
+  venue: CVPR workshop on Vision-based InduStrial InspectiON (VISION)
   urls:
-    paper: https://doi.org/10.48550/arXiv.2304.08994
+    paper: ''
     project: https://a-nau.github.io/parcel3d/
-    arxiv: ''
+    arxiv: https://doi.org/10.48550/arXiv.2304.08994
     code: ''
     dataset: ''
-    venue: ''
+    venue: https://vision-based-industrial-inspection.github.io/cvpr-2023/
   dataset:
     name: Parcel3D
     comment: Will be publicly available very soon
-    description: Synthetic dataset of intact and damaged parcel images with full 3D
-      annotations that is suitable for applications in transportation logistics and
-      warehousing
-  bibtex: "@online{naumannParcel3DShapeReconstruction2023,\n author = {Naumann, Alexander\
-    \ and Hertlein, Felix and Dörr, Laura and Furmans, Kai},\n date = {2023-04-18},\n\
-    \ doi = {10.48550/arXiv.2304.08994},\n eprint = {2304.08994},\n eprintclass =\
-    \ {cs},\n eprinttype = {arxiv (accepted at CVPRW '23)},\n pubstate = {preprint},\n\
-    \ shorttitle = {{{Parcel3D}}},\n title = {{{Parcel3D}}: {{Shape Reconstruction}}\
-    \ from {{Single RGB Images}} for {{Applications}} in {{Transportation Logistics}}},\n\
-    \ url = {http://arxiv.org/abs/2304.08994},\n urldate = {2023-04-27}\n}\n"
+    description: Synthetic dataset of intact and damaged parcel images (>13,000) with
+      full 3D annotations that is suitable for applications in transportation logistics
+      and warehousing
+  bibtex: "@inproceedings{naumannParcel3DShapeReconstruction2023,\n    title     \
+    \   = {Parcel3D: Shape Reconstruction from Single RGB Images for Applications\
+    \ in Transportation Logistics},\n    author       = {Naumann, Alexander and Hertlein,\
+    \ Felix and Dörr, Laura and Furmans, Kai},\n    booktitle    = {IEEE/CVF Conference\
+    \ on Computer Vision and Pattern Recognition Workshops ({CVPRW})},\n    note \
+    \        = {to appear in},\n    date         = 2023\n}\n"
   summary: 3D shape reconstruction of potentially damaged parcels for damage and tampering
     detection in transportation logistics and warehousing
   abstract: We focus on enabling damage and tampering detection in logistics and tackle
@@ -1547,24 +1591,22 @@
   title: Refined Plane Segmentation for Cuboid-Shaped Objects by Leveraging Edge Detection
   venue: International Conference On Machine Learning And Applications
   urls:
-    paper: http://arxiv.org/abs/2003.12870
+    paper: https://ieeexplore.ieee.org/document/9356356
     project: ''
-    arxiv: ''
-    code: ''
+    arxiv: http://arxiv.org/abs/2003.12870
+    code: https://github.com/a-nau/Plane-Segmentation-Refinement
     dataset: https://url.fzi.de/refined_planeseg
-    venue: ''
+    venue: https://icmla-conference.org/icmla20/
   dataset:
     name: ''
     comment: ~40 images
     description: ''
-  bibtex: "@inproceedings{naumannRefinedPlaneSegmentation2020,\n author = {Naumann,\
-    \ Alexander and Dörr, Laura and Salscheider, Niels Ole and Furmans, Kai},\n booktitle\
-    \ = {International {{Conference On Machine Learning And Applications}}},\n date\
-    \ = {2020-03-28},\n eprint = {2003.12870},\n eprinttype = {arxiv},\n eventtitle\
-    \ = {International {{Conference On Machine Learning And Applications}}},\n isbn\
-    \ = {978-1-72818-471-5},\n langid = {english},\n title = {Refined {{Plane Segmentation}}\
-    \ for {{Cuboid-Shaped Objects}} by {{Leveraging Edge Detection}}},\n url = {http://arxiv.org/abs/2003.12870},\n\
-    \ urldate = {2020-07-03}\n}\n"
+  bibtex: "@inproceedings{naumannRefinedPlaneSegmentation2020,\n    title        =\
+    \ {Refined Plane Segmentation for Cuboid-Shaped Objects by Leveraging Edge Detection},\n\
+    \    author       = {Naumann, Alexander and Dörr, Laura and Salscheider, Niels\
+    \ Ole and Furmans, Kai},\n    booktitle    = {{{IEEE Conference}} on {{Machine\
+    \ Learning}} and Applications ({{ICMLA}})},\n    location     = {{Miami, USA}},\n\
+    \    date         = {2020-12}\n}\n"
   summary: Parcel side surface segmentation by exploiting plane detection
   abstract: Recent advances in the area of plane segmentation from single RGB images
     show strong accuracy improvements and now allow a reliable segmentation of indoor
@@ -1603,23 +1645,20 @@
   urls:
     paper: https://doi.org/10.1109/ICMLA55696.2022.00171
     project: https://a-nau.github.io/parcel2d/
-    arxiv: ''
+    arxiv: https://arxiv.org/abs/2210.09814
     code: https://github.com/a-nau/synthetic-dataset-generation
     dataset: ''
-    venue: ''
+    venue: https://www.icmla-conference.org/icmla22/
   dataset:
     name: Parcel2D Real
     comment: Full 3D annotations and keypoint positions have been added to the dataset.
       Will be publicly available very soon
     description: Dataset of parcel photos in different environments
-  bibtex: "@inproceedings{naumannScrapeCutPasteLearn2022,\n author = {Naumann, Alexander\
-    \ and Hertlein, Felix and Zhou, Benchun and Dorr, Laura and Furmans, Kai},\n booktitle\
-    \ = {2022 21st {{IEEE International Conference}} on {{Machine Learning}} and {{Applications}}\
-    \ ({{ICMLA}})},\n date = {2022-12},\n doi = {10.1109/ICMLA55696.2022.00171},\n\
-    \ eventtitle = {2022 21st {{IEEE International Conference}} on {{Machine Learning}}\
-    \ and {{Applications}} ({{ICMLA}})},\n pages = {1026--1031},\n shorttitle = {Scrape,\
-    \ {{Cut}}, {{Paste}} and {{Learn}}},\n title = {Scrape, {{Cut}}, {{Paste}} and\
-    \ {{Learn}}: {{Automated Dataset Generation Applied}} to {{Parcel Logistics}}}\n\
+  bibtex: "@inproceedings{naumannScrapeCutPasteLearn2022,\n    title        = {Scrape,\
+    \ Cut, Paste and Learn: Automated Dataset Generation Applied to Parcel Logistics},\n\
+    \    author       = {Naumann, Alexander and Hertlein, Felix and Zhou, Benchun\
+    \ and Dörr, Laura and Furmans, Kai},\n    booktitle    = {{{IEEE Conference}}\
+    \ on {{Machine Learning}} and Applications ({{ICMLA}})},\n    date         = 2022\n\
     }\n"
   summary: automated instance segmentation dataset generation applied to parcel logistics
   abstract: 'State-of-the-art approaches in computer vision heavily rely on sufficiently
@@ -1943,41 +1982,9 @@
   - Deep Learning
   Application:
   - Tracking and Tracing
-- id: satapathyInformationCommunicationTechnology2018
-  authors: Suresh Chandra Satapathy, Amit Joshi
-  year: 2018
-  title: Information and Communication Technology for Intelligent Systems
-  venue: null
-  urls:
-    paper: ''
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
-  dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@book{satapathyInformationCommunicationTechnology2018,\n author = {Satapathy,\
-    \ Suresh Chandra and Joshi, Amit},\n date = {2018},\n isbn = {9789811317415},\n\
-    \ langid = {english},\n location = {{New York, NY}},\n publisher = {{Springer\
-    \ Berlin Heidelberg}},\n series = {Proceedings of {{ICTIS}}},\n title = {Information\
-    \ and Communication Technology for Intelligent Systems}\n}\n"
-  summary: low cost embedded vision system for the detection of 1D barcodes
-  abstract: ''
-  Objects:
-  - Label
-  CV Tasks: []
-  Data Type:
-  - RGB
-  Approach Type:
-  - Classical Approach
-  Application:
-  - Label Recognition
-- id: shettyOpticalContainerCode
+- id: shettyOpticalContainerCode2012
   authors: Ravindra Shetty, Rebeca Cáceres, John Pastrana, Luis Rabelo
-  year: null
+  year: 2012
   title: Optical Container Code Recognition and Its Impact on the Maritime Supply
     Chain
   venue: 2012 Industrial and Systems Engineering Research Conference
