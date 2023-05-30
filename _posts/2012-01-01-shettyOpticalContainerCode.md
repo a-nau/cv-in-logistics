@@ -1,29 +1,31 @@
 ---
 layout: post
-id: shettyOpticalContainerCode
+id: shettyOpticalContainerCode2012
 authors: Ravindra Shetty, Rebeca Cáceres, John Pastrana, Luis Rabelo
-year: null
+year: 2012
 title: Optical Container Code Recognition and Its Impact on the Maritime Supply Chain
 venue: 2012 Industrial and Systems Engineering Research Conference
 tags: c60,a02,d01
 urls:
-  paper: ''
-  project: ''
-  arxiv: ''
-  code: ''
-  dataset: ''
-  venue: ''
+  paper: ""
+  project: ""
+  arxiv: ""
+  code: ""
+  dataset: ""
+  venue: ""
 dataset:
-  name: ''
-  comment: ''
-  description: ''
-bibtex: "@inproceedings{shettyOpticalContainerCode,\n author = {Shetty, Ravindra and\
+  name: ""
+  comment: ""
+  description: ""
+bibtex:
+  "@inproceedings{shettyOpticalContainerCode,\n author = {Shetty, Ravindra and\
   \ Cáceres, Rebeca and Pastrana, John and Rabelo, Luis},\n booktitle = {2012 {{Industrial}}\
   \ and {{Systems Engineering Research Conference}}},\n langid = {english},\n pages\
   \ = {10},\n title = {Optical {{Container Code Recognition}} and Its {{Impact}} on\
   \ the {{Maritime Supply Chain}}}\n}\n"
 summary: Framework for OCR on containers
-abstract: Container terminal operators worldwide have expressed the need for accurate
+abstract:
+  Container terminal operators worldwide have expressed the need for accurate
   real-time accounting of the incoming, outgoing and existing inventory. Container
   Optical Code Recognition (OCR) provides systems which can be integrated with RFID
   tags in order to give more accurate information to Maritime Supply Chain Management.
@@ -48,4 +50,3 @@ abstract: Container terminal operators worldwide have expressed the need for acc
 ```
 {{page.bibtex}}
 ```
-            
