@@ -17,9 +17,9 @@ If you want to add a new paper follow these steps:
 
 **Create a new file**
 
-- Create a file in the `_posts` folder with syntax `YYYY-MM-DD-paperid.md`
+- Create a file in the `_posts` folder with syntax `YYYY-MM-DD-paperid.md`, e.g. `2023-04-12-naumannLiteratureReviewComputer2023.md`
   - use `YYYY-01-01` if no specific publication date is available
-  - `paperid` must coincide with the `id` defined in the subsequent step and should follow `bibtex` ID syntax
+  - `paperid` must coincide with the `id` defined in the subsequent step and should follow `bibtex` ID syntax (we use the [default BetterBibtex](https://retorque.re/zotero-better-bibtex/citing/#configurable-citekey-generator) syntax)
 
 **Add relevant paper data**
 
