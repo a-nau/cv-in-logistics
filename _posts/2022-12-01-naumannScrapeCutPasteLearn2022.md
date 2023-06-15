@@ -15,14 +15,12 @@ urls:
   project: https://a-nau.github.io/parcel2d/
   arxiv: https://arxiv.org/abs/2210.09814
   code: https://github.com/a-nau/synthetic-dataset-generation
-  dataset: ""
+  dataset: https://zenodo.org/record/8031971
   venue: https://www.icmla-conference.org/icmla22/
 dataset:
   name: Parcel2D Real
-  comment:
-    Full 3D annotations and keypoint positions have been added to the dataset.
-    Will be publicly available very soon
-  description: Dataset of parcel photos in different environments
+  comment: Full 3D annotations and keypoint positions have been added to the dataset.
+  description: Real-world dataset of ~400 images of cuboid-shaped parcels with full 2D and 3D annotations in the COCO format.
 bibtex: |
   @inproceedings{naumannScrapeCutPasteLearn2022,
       title        = {Scrape, Cut, Paste and Learn: Automated Dataset Generation Applied to Parcel Logistics},

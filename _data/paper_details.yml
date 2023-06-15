@@ -1531,26 +1531,27 @@
   year: 2023
   title: 'Parcel3D: Shape Reconstruction from Single RGB Images for Applications in
     Transportation Logistics'
-  venue: CVPR workshop on Vision-based InduStrial InspectiON (VISION)
+  venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops
   urls:
-    paper: ''
+    paper: https://openaccess.thecvf.com/content/CVPR2023W/VISION/html/Naumann_Parcel3D_Shape_Reconstruction_From_Single_RGB_Images_for_Applications_in_CVPRW_2023_paper.html
     project: https://a-nau.github.io/parcel3d/
     arxiv: https://doi.org/10.48550/arXiv.2304.08994
     code: ''
-    dataset: ''
+    dataset: https://zenodo.org/record/8032204
     venue: https://vision-based-industrial-inspection.github.io/cvpr-2023/
   dataset:
     name: Parcel3D
-    comment: Will be publicly available very soon
+    comment: ''
     description: Synthetic dataset of intact and damaged parcel images (>13,000) with
       full 3D annotations that is suitable for applications in transportation logistics
       and warehousing
-  bibtex: "@inproceedings{naumannParcel3DShapeReconstruction2023,\n    title     \
-    \   = {Parcel3D: Shape Reconstruction from Single RGB Images for Applications\
-    \ in Transportation Logistics},\n    author       = {Naumann, Alexander and Hertlein,\
-    \ Felix and Dörr, Laura and Furmans, Kai},\n    booktitle    = {IEEE/CVF Conference\
-    \ on Computer Vision and Pattern Recognition Workshops ({CVPRW})},\n    note \
-    \        = {to appear in},\n    date         = 2023\n}\n"
+  bibtex: "@inproceedings{naumannParcel3DShapeReconstruction2023,\n      author  \
+    \  = {Naumann, Alexander and Hertlein, Felix and D\\\"orr, Laura and Furmans,\
+    \ Kai},\n      title     = {Parcel3D: Shape Reconstruction From Single RGB Images\
+    \ for Applications in Transportation Logistics},\n      booktitle = {Proceedings\
+    \ of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)\
+    \ Workshops},\n      month     = {June},\n      year      = {2023},\n      pages\
+    \     = {4402-4412}\n}\n"
   summary: 3D shape reconstruction of potentially damaged parcels for damage and tampering
     detection in transportation logistics and warehousing
   abstract: We focus on enabling damage and tampering detection in logistics and tackle
@@ -1647,13 +1648,13 @@
     project: https://a-nau.github.io/parcel2d/
     arxiv: https://arxiv.org/abs/2210.09814
     code: https://github.com/a-nau/synthetic-dataset-generation
-    dataset: ''
+    dataset: https://zenodo.org/record/8031971
     venue: https://www.icmla-conference.org/icmla22/
   dataset:
     name: Parcel2D Real
     comment: Full 3D annotations and keypoint positions have been added to the dataset.
-      Will be publicly available very soon
-    description: Dataset of parcel photos in different environments
+    description: Real-world dataset of ~400 images of cuboid-shaped parcels with full
+      2D and 3D annotations in the COCO format.
   bibtex: "@inproceedings{naumannScrapeCutPasteLearn2022,\n    title        = {Scrape,\
     \ Cut, Paste and Learn: Automated Dataset Generation Applied to Parcel Logistics},\n\
     \    author       = {Naumann, Alexander and Hertlein, Felix and Zhou, Benchun\
