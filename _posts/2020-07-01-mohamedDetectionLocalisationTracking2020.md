@@ -1,26 +1,30 @@
 ---
 layout: post
 id: mohamedDetectionLocalisationTracking2020
-authors: Ihab S. Mohamed, Alessio Capitanelli, Fulvio Mastrogiovanni, Stefano Rovetta,
+authors:
+  Ihab S. Mohamed, Alessio Capitanelli, Fulvio Mastrogiovanni, Stefano Rovetta,
   Renato Zaccaria
 year: 2020
-title: Detection, Localisation and Tracking of Pallets Using Machine Learning Techniques
+title:
+  Detection, Localisation and Tracking of Pallets Using Machine Learning Techniques
   and 2D Range Data
 venue: Neural Computing and Applications
 tags: a22,c03,d03,d51,m02
 urls:
   paper: https://doi.org/10.1007/s00521-019-04352-0
-  project: ''
-  arxiv: ''
-  code: ''
-  dataset: ''
-  venue: ''
+  project: ""
+  arxiv: ""
+  code: https://github.com/EmaroLab/PDT
+  dataset: https://github.com/EmaroLab/PDT/tree/master/Pallet_Detection
+  venue: ""
 dataset:
-  name: ''
-  comment: real-world data set containing 340 labeled top-view images, which is augmented
-    by rotation and displacement to 1020 images
-  description: ''
-bibtex: "@article{mohamedDetectionLocalisationTracking2020,\n author = {Mohamed, Ihab\
+  name: PDT Pallet Detection
+  comment:
+    Real-world data set containing 340 labeled top-view images, which is augmented
+    by rotation and displacement to 1020 images. For details see https://www.sciencedirect.com/science/article/pii/S235234091930188X
+  description: ""
+bibtex:
+  "@article{mohamedDetectionLocalisationTracking2020,\n author = {Mohamed, Ihab\
   \ S. and Capitanelli, Alessio and Mastrogiovanni, Fulvio and Rovetta, Stefano and\
   \ Zaccaria, Renato},\n date = {2020-07-01},\n doi = {10.1007/s00521-019-04352-0},\n\
   \ issn = {1433-3058},\n journaltitle = {Neural Computing and Applications},\n langid\
@@ -29,7 +33,8 @@ bibtex: "@article{mohamedDetectionLocalisationTracking2020,\n author = {Mohamed,
   \ Using Machine Learning Techniques and {{2D}} Range Data},\n url = {https://doi.org/10.1007/s00521-019-04352-0},\n\
   \ urldate = {2022-05-03},\n volume = {32}\n}\n"
 summary: pallet recognition and tracking using only an onboard laser rangefinder
-abstract: 'The problem of autonomous transportation in industrial scenarios is receiving
+abstract:
+  'The problem of autonomous transportation in industrial scenarios is receiving
   a renewed interest due to the way it can revolutionise internal logistics, especially
   in unstructured environments. This paper presents a novel architecture allowing
   a robot to detect, localise, and track (possibly multiple) pallets using machine
@@ -61,4 +66,3 @@ abstract: 'The problem of autonomous transportation in industrial scenarios is r
 ```
 {{page.bibtex}}
 ```
-            

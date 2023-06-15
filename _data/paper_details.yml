@@ -1330,13 +1330,13 @@
     paper: https://doi.org/10.1007/s00521-019-04352-0
     project: ''
     arxiv: ''
-    code: ''
-    dataset: ''
+    code: https://github.com/EmaroLab/PDT
+    dataset: https://github.com/EmaroLab/PDT/tree/master/Pallet_Detection
     venue: ''
   dataset:
-    name: ''
-    comment: real-world data set containing 340 labeled top-view images, which is
-      augmented by rotation and displacement to 1020 images
+    name: PDT Pallet Detection
+    comment: Real-world data set containing 340 labeled top-view images, which is
+      augmented by rotation and displacement to 1020 images. For details see https://www.sciencedirect.com/science/article/pii/S235234091930188X
     description: ''
   bibtex: "@article{mohamedDetectionLocalisationTracking2020,\n author = {Mohamed,\
     \ Ihab S. and Capitanelli, Alessio and Mastrogiovanni, Fulvio and Rovetta, Stefano\
