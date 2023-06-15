@@ -14,8 +14,8 @@ urls:
   paper: https://doi.org/10.1007/s00521-019-04352-0
   project: ""
   arxiv: ""
-  code: https://github.com/EmaroLab/PDT
-  dataset: https://github.com/EmaroLab/PDT/tree/master/Pallet_Detection
+  code: ""
+  dataset: https://github.com/EmaroLab/PDT/
   venue: ""
 dataset:
   name: PDT Pallet Detection
