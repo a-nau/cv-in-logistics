@@ -1904,7 +1904,7 @@
     description: ''
   bibtex: "@inproceedings{rutinowskiDeepLearningBased2022,\n author = {Rutinowski,\
     \ Jérôme and Pionzewski, Christian and Chilla, Tim and Reining, Christopher and\
-    \ Hompel, Michael Ten},\n booktitle = {2022 21st {{IEEE International Conference}}\
+    \ ten Hompel, Michael},\n booktitle = {2022 21st {{IEEE International Conference}}\
     \ on {{Machine Learning}} and {{Applications}} ({{ICMLA}})},\n date = {2022-12},\n\
     \ doi = {10.1109/ICMLA55696.2022.00023},\n eventtitle = {2022 21st {{IEEE International\
     \ Conference}} on {{Machine Learning}} and {{Applications}} ({{ICMLA}})},\n pages\

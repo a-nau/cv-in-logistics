@@ -1,33 +1,37 @@
 ---
 layout: post
 id: rutinowskiDeepLearningBased2022
-authors: Jérôme Rutinowski, Christian Pionzewski, Tim Chilla, Christopher Reining,
+authors:
+  Jérôme Rutinowski, Christian Pionzewski, Tim Chilla, Christopher Reining,
   Michael Ten Hompel
 year: 2022
 title: Deep Learning Based Re-Identification of Wooden Euro-pallets
-venue: 2022 21st IEEE International Conference on Machine Learning and Applications
+venue:
+  2022 21st IEEE International Conference on Machine Learning and Applications
   (ICMLA)
 tags: c03,d01,m02,d51,t03,a03
 urls:
   paper: https://doi.org/10.1109/ICMLA55696.2022.00023
-  project: ''
-  arxiv: ''
-  code: ''
+  project: ""
+  arxiv: ""
+  code: ""
   dataset: https://doi.org/10.5281/zenodo.6358607
-  venue: ''
+  venue: ""
 dataset:
-  name: ''
+  name: ""
   comment: 32,965 pallets blocks with 4 images each
-  description: ''
-bibtex: "@inproceedings{rutinowskiDeepLearningBased2022,\n author = {Rutinowski, Jérôme\
-  \ and Pionzewski, Christian and Chilla, Tim and Reining, Christopher and Hompel,\
-  \ Michael Ten},\n booktitle = {2022 21st {{IEEE International Conference}} on {{Machine\
+  description: ""
+bibtex:
+  "@inproceedings{rutinowskiDeepLearningBased2022,\n author = {Rutinowski, Jérôme\
+  \ and Pionzewski, Christian and Chilla, Tim and Reining, Christopher and ten Hompel,\
+  \ Michael},\n booktitle = {2022 21st {{IEEE International Conference}} on {{Machine\
   \ Learning}} and {{Applications}} ({{ICMLA}})},\n date = {2022-12},\n doi = {10.1109/ICMLA55696.2022.00023},\n\
   \ eventtitle = {2022 21st {{IEEE International Conference}} on {{Machine Learning}}\
   \ and {{Applications}} ({{ICMLA}})},\n pages = {113--117},\n title = {Deep {{Learning\
   \ Based Re-Identification}} of {{Wooden Euro-pallets}}}\n}\n"
 summary: re-identification for chipwood pallet blocks of Euro pallets
-abstract: This work proposes a novel, open-source image dataset and an approach for
+abstract:
+  This work proposes a novel, open-source image dataset and an approach for
   the re-identification of wooden Euro-pallets in the context of warehousing logistics.
   The dataset contains images of 32,965 pallet blocks, of which four pictures are
   taken respectively, making for a dataset of 131,860 labeled (individual ID, camera
@@ -52,4 +56,3 @@ abstract: This work proposes a novel, open-source image dataset and an approach 
 ```
 {{page.bibtex}}
 ```
-            
