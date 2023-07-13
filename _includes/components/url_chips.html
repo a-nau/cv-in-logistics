@@ -1,6 +1,6 @@
 {% assign urls = include.urls %}
 <!-- split -->
-{% if urls.project != "" %}
+{% if urls.project != "" and urls.project is not none %}
 <a href="{{urls.project}}" target="_blank">
   <span style="margin-right: 10px">
     <i class="bi bi-globe"></i>
@@ -9,7 +9,7 @@
 </a>
 {% endif %}
 <!-- split -->
-{% if urls.paper != ""%}
+{% if urls.paper != "" and urls.paper is not none%}
 <a href="{{urls.paper}}" target="_blank">
   <span style="margin-right: 10px">
     <i class="bi bi-file-text"></i>
@@ -18,7 +18,7 @@
 </a>
 {% endif %}
 <!-- split -->
-{% if urls.arxiv != "" %}
+{% if urls.arxiv != "" and urls.arxiv is not none %}
 <a href="{{urls.arxiv}}" target="_blank">
   <span style="margin-right: 10px">
     <i class="bi bi-file-earmark-arrow-down"></i>
@@ -27,7 +27,7 @@
 </a>
 {% endif %}
 <!-- split -->
-{% if urls.code != "" %}
+{% if urls.code != "" and urls.code is not none %}
 <a href="{{urls.code}}" target="_blank">
   <span style="margin-right: 10px">
     <i class="bi bi-github"></i>
@@ -36,7 +36,7 @@
 </a>
 {% endif %}
 <!-- split -->
-{% if urls.venue != "" %}
+{% if urls.venue != "" and urls.venue is not none %}
 <a href="{{urls.venue}}" target="_blank">
   <span style="margin-right: 10px">
     <i class="bi bi-globe-europe-africa"></i>
@@ -45,7 +45,7 @@
 </a>
 {% endif %}
 <!-- split -->
-{% if urls.dataset != "" %}
+{% if urls.dataset != "" and urls.dataset is not none %}
 <a href="{{urls.dataset}}" target="_blank">
   <span style="margin-right: 10px">
     <i class="bi bi-images"></i>
