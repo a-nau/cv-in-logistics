@@ -12,7 +12,7 @@ urls:
   paper: https://openaccess.thecvf.com/content/CVPR2023W/VISION/html/Naumann_Parcel3D_Shape_Reconstruction_From_Single_RGB_Images_for_Applications_in_CVPRW_2023_paper.html
   project: https://a-nau.github.io/parcel3d/
   arxiv: https://doi.org/10.48550/arXiv.2304.08994
-  code: ""
+  code: https://github.com/a-nau/CubeRefine-R-CNN
   dataset: https://zenodo.org/record/8032204
   venue: https://vision-based-industrial-inspection.github.io/cvpr-2023/
 dataset:

@@ -360,6 +360,58 @@
   - Fiducial Markers
   Application:
   - Tracking and Tracing
+- id: dorrDigitalMeasuringLoad2023
+  authors: Laura Dörr, Katharina Glock, Felix Brandt, Alexander Naumann, Martin Pouls
+  year: 2023
+  title: A Digital Measuring and Load Planning System for Large Transport Assets
+  venue: '2023 International Scientific Symposium on Logistics: Conference Volume'
+  urls:
+    paper: https://slub.qucosa.de/api/qucosa%3A85570/attachment/ATT-0/
+    project: null
+    arxiv: null
+    code: null
+    dataset: null
+    venue: null
+  dataset:
+    name: null
+    comment: null
+    description: null
+  bibtex: "@inproceedings{dorrDigitalMeasuringLoad2023,\n    title        = {A {{Digital\
+    \ Measuring}} and {{Load Planning System}} for {{Large Transport Assets}}},\n\
+    \    author       = {D{\\\"o}rr, Laura and Glock, Katharina and Brandt, Felix\
+    \ and Naumann, Alexander and Pouls, Martin},\n    year         = 2023,\n    month\
+    \        = jun,\n    booktitle    = {2023 {{International Scientific Symposium}}\
+    \ on {{Logistics}} : {{Conference Volume}}},\n    publisher    = {{Bundesvereinigung\
+    \ Logistik (BVL) e.V., Berlin}},\n    pages        = {49--55},\n    doi      \
+    \    = {10.25366/2023.124},\n    urldate      = {2023-07-07},\n    langid    \
+    \   = {english}\n}\n"
+  summary: Digital measuring and load planning for large, regularly shaped wooden
+    assets.
+  abstract: Recently, the efforts involved in the digitization and digitalization
+    of logistics processes have grown tremendously. In line with such efforts, we
+    investigate the potential of the process-integrated measuring and load planning
+    of large transport assets. More precisely, considering the case of a German timber
+    processor and retailer, we implement a digital measuring system, which performs
+    precise measuring of regularly shaped wooden assets. The cognitive system uses
+    laser and vision sensors, and measurements can be performed during the asset’s
+    transportation on a forklift. The resulting data can be used to conduct a comprehensive
+    load planning for scheduled delivery tours.
+  Objects:
+  - Fork Lift
+  - Other
+  CV Tasks:
+  - Pointcloud Segmetation
+  - 3D Object Detection
+  Data Type:
+  - RGB
+  - Pointcloud
+  - Real
+  Approach Type:
+  - Classical Approach
+  - Fiducial Markers
+  Application:
+  - Volume Estimation
+  - Loading and Unloading
 - id: dorrFullyAutomatedPackagingStructure2020
   authors: Laura Dörr, Felix Brandt, Martin Pouls, Alexander Naumann
   year: 2020
@@ -1536,7 +1588,7 @@
     paper: https://openaccess.thecvf.com/content/CVPR2023W/VISION/html/Naumann_Parcel3D_Shape_Reconstruction_From_Single_RGB_Images_for_Applications_in_CVPRW_2023_paper.html
     project: https://a-nau.github.io/parcel3d/
     arxiv: https://doi.org/10.48550/arXiv.2304.08994
-    code: ''
+    code: https://github.com/a-nau/CubeRefine-R-CNN
     dataset: https://zenodo.org/record/8032204
     venue: https://vision-based-industrial-inspection.github.io/cvpr-2023/
   dataset:
