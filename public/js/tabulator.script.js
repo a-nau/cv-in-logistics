@@ -185,7 +185,9 @@ function chip2html(element) {
 
 const load_dataset_table = (container_id, data) => {
   const dataset_data = data.filter(
-    (item) => item.dataset.name != "" || item.urls.dataset != ""
+    (item) =>
+      !(item.dataset.name == "" || item.dataset.name == null) ||
+      !(item.urls.dataset == "" || item.urls.dataset == null)
   );
   let tabledata = dataset_data.map((row) => {
     return {
