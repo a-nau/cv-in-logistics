@@ -1529,6 +1529,62 @@
   - Template Matching
   Application:
   - Pallet Handling
+- id: muellerPalletDetectionLocalisation2024
+  authors: Henri Mueller, Yechan Kim, Trevor Gee, Mahla Nejati
+  year: 2025
+  title: Pallet Detection And Localisation From Synthetic Data
+  venue: 2024 Australasian Conference on Robotics and Automation
+  urls:
+    paper: https://ssl.linklings.net/conferences/acra/acra2024_proceedings/views/includes/files/pap154s2.pdf
+    project: null
+    arxiv: https://arxiv.org/abs/2503.22965
+    code: ""
+    dataset: ""
+    venue: https://www.araa.asn.au/conference/acra-2024/
+  dataset:
+    name: null
+    comment: null
+    description: null
+  bibtex:
+    "@inproceedings{muellerPalletDetectionLocalisation2024,\n    author    =\
+    \ {Mueller, Henri and Kim, Yechan and Gee, Trevor and Nejati, Mahla},\n    title\
+    \     = {Pallet Detection And Localisation From Synthetic Data},\n    booktitle\
+    \ = {Proceedings of the 2024 Australasian Conference on Robotics and Automation},\n\
+    \    year      = {2024},\n}\n"
+  summary: A new approach on pallet pose estimation using an RGB camera.
+  abstract:
+    The global warehousing industry is experiencing rapid growth, with the
+    market size projected to grow at an annual rate of 8.1% from 2024 to 2030 [Grand
+    View Research, 2021]. This expansion has led to a surge in demand for efficient
+    pallet detection and localisation systems. While automation can significantly
+    streamline warehouse operations, the development of such systems often requires
+    extensive manual data annotation, with an average of 35 seconds per image, for
+    a typical computer vision project. This paper presents a novel approach to enhance
+    pallet detection and localisation using purely synthetic data and geometric features
+    derived from their side faces. By implementing a domain randomisation engine in
+    Unity, the need for time-consuming manual annotation is eliminated while achieving
+    high-performance results. The proposed method demonstrates a pallet detection
+    performance of 0.995 mAP50 for single pallets on a real-world dataset. Additionally,
+    an average position accuracy of less than 4.2 cm and an average rotation accuracy
+    of 8.2° were achieved for pallets within a 5-meter range, with the pallet positioned
+    head-on.
+  Objects:
+  - Pallet
+  - Fork Lift
+  - AGV
+  CV Tasks:
+  - Object Detection
+  - Object Tracking
+  - Keypoint Matching
+  - 3D Positioning
+  Data Type:
+  - RGB
+  Approach Type:
+  - Deep Learning
+  Application:
+  - Pallet Handling
+  - AGVs
+  - Loading and Unloading
 - id: naumannLiteratureReviewComputer2023
   authors: Alexander Naumann, Felix Hertlein, Laura Dörr, Steffen Thoma, Kai Furmans
   year: 2023
