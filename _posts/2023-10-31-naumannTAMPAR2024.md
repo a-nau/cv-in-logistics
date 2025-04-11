@@ -3,8 +3,8 @@ layout: post
 id: naumannTAMPAR2024
 authors: Alexander Naumann, Felix Hertlein, Laura Dörr, Kai Furmans
 year: 2024
-title: "TAMPAR: Visual Tampering Detection for Parcel Logistics in Postal Supply Chains"
-venue: "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision"
+title: 'TAMPAR: Visual Tampering Detection for Parcel Logistics in Postal Supply Chains'
+venue: Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision
 tags: c01,c09,t01,t02,t63,d01,d51,m01,m02,a02,a08
 urls:
   paper:

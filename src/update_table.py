@@ -1,14 +1,15 @@
-from pathlib import Path
 import re
-import yaml
 import sys
+from pathlib import Path
+
+import yaml
 
 ROOT = Path(__file__).parent.parent
 sys.path.append(ROOT.as_posix())
 DATA = ROOT / "_data"
 POSTS = ROOT / "_posts"
 
-from utils import load_yaml, save_yaml
+from utils import load_yaml, save_yaml  # noqa: E402
 
 tags = load_yaml(DATA / "tags.yml")
 

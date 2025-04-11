@@ -1,23 +1,27 @@
 - id: arpentiRGBDRecognitionLocalization2020
-  authors: Pierluigi Arpenti, Riccardo Caccavale, Gianmarco Paduano, Giuseppe Andrea
+  authors:
+    Pierluigi Arpenti, Riccardo Caccavale, Gianmarco Paduano, Giuseppe Andrea
     Fontanelli, Vincenzo Lippiello, Luigi Villani, Bruno Siciliano
   year: 2020
-  title: RGB-D Recognition and Localization of Cases for Robotic Depalletizing in
+  title:
+    RGB-D Recognition and Localization of Cases for Robotic Depalletizing in
     Supermarkets
   venue: IEEE Robotics and Automation Letters
   urls:
     paper: https://doi.org/10/gh547b
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: For the evaluation a database of nine cases that were organized in 10
+    name: ""
+    comment:
+      For the evaluation a database of nine cases that were organized in 10
       different settings was considered
-    description: ''
-  bibtex: "@article{arpentiRGBDRecognitionLocalization2020,\n author = {Arpenti, Pierluigi\
+    description: ""
+  bibtex:
+    "@article{arpentiRGBDRecognitionLocalization2020,\n author = {Arpenti, Pierluigi\
     \ and Caccavale, Riccardo and Paduano, Gianmarco and Andrea Fontanelli, Giuseppe\
     \ and Lippiello, Vincenzo and Villani, Luigi and Siciliano, Bruno},\n date = {2020-10},\n\
     \ doi = {10/gh547b},\n issn = {2377-3766, 2377-3774},\n journaltitle = {IEEE Robotics\
@@ -27,7 +31,8 @@
     \ url = {https://ieeexplore.ieee.org/document/9158347/},\n urldate = {2021-02-28},\n\
     \ volume = {5}\n}\n"
   summary: optimized depalletization using a single RGBD camera
-  abstract: Integrating a robotic system into the depalletizing process of a supermarket
+  abstract:
+    Integrating a robotic system into the depalletizing process of a supermarket
     demands a high level of autonomy, based on strong perceptive capabilities. This
     paper presents a system for detection, recognition, and localization of heterogeneous
     cases in a depalletizing robotic cell, using a single RGB-D camera. Such a system
@@ -37,36 +42,39 @@
     multiple cases and pallet configurations are considered. Finally, a complete depalletizing
     process is shown.
   Objects:
-  - Pallet
-  - Parcel
+    - Pallet
+    - Parcel
   CV Tasks:
-  - Keypoint Matching
+    - Keypoint Matching
   Data Type:
-  - RGBD
-  - Real
+    - RGBD
+    - Real
   Approach Type:
-  - Classical Approach
+    - Classical Approach
   Application:
-  - Depalletization
+    - Depalletization
 - id: borstellPalletMonitoringSystem2014
-  authors: Hagen Borstell, Jewgeni Kluth, Marcel Jaeschke, Cathrin Plate, Bernd Gebert,
+  authors:
+    Hagen Borstell, Jewgeni Kluth, Marcel Jaeschke, Cathrin Plate, Bernd Gebert,
     Klaus Richter
   year: 2014
-  title: Pallet Monitoring System Based on a Heterogeneous Sensor Network for Transparent
+  title:
+    Pallet Monitoring System Based on a Heterogeneous Sensor Network for Transparent
     Warehouse Processes
-  venue: '2014 Sensor Data Fusion: Trends, Solutions, Applications (SDF)'
+  venue: "2014 Sensor Data Fusion: Trends, Solutions, Applications (SDF)"
   urls:
     paper: https://doi.org/10.1109/SDF.2014.6954718
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@inproceedings{borstellPalletMonitoringSystem2014,\n author = {Borstell,\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@inproceedings{borstellPalletMonitoringSystem2014,\n author = {Borstell,\
     \ Hagen and Kluth, Jewgeni and Jaeschke, Marcel and Plate, Cathrin and Gebert,\
     \ Bernd and Richter, Klaus},\n booktitle = {2014 {{Sensor Data Fusion}}: {{Trends}},\
     \ {{Solutions}}, {{Applications}} ({{SDF}})},\n date = {2014-10},\n doi = {10.1109/SDF.2014.6954718},\n\
@@ -74,7 +82,8 @@
     \ ({{SDF}})},\n pages = {1--6},\n title = {Pallet Monitoring System Based on a\
     \ Heterogeneous Sensor Network for Transparent Warehouse Processes}\n}\n"
   summary: System for pallet monitoring
-  abstract: Increased transparency of material and product flows in warehouses will
+  abstract:
+    Increased transparency of material and product flows in warehouses will
     necessitate real-time determination of the properties of logistical units (e.g.
     small bins, parcels, palletized goods, intermodal containers). The key properties
     of logistical units are their unique identifiers and locations at a given time.
@@ -92,38 +101,41 @@
     we were able to generate the aforementioned pallet information for subsequent
     monitoring and control of warehouse operations in real-time.
   Objects:
-  - Pallet
+    - Pallet
   CV Tasks:
-  - 3D Dimension Estimation
+    - 3D Dimension Estimation
   Data Type:
-  - RGB
-  - RGBD
-  - Real
+    - RGB
+    - RGBD
+    - Real
   Approach Type:
-  - Fiducial Markers
-  - Classical Approach
+    - Fiducial Markers
+    - Classical Approach
   Application:
-  - Tracking and Tracing
+    - Tracking and Tracing
 - id: borstellProzessintegrierteVolumenerfassungLogistischen2013
   authors: Hagen Borstell, Liu Cao, Jewgeni Kluth, Klaus Richter
   year: 2013
-  title: Prozessintegrierte Volumenerfassung von logistischen Palettenstrukturen auf
+  title:
+    Prozessintegrierte Volumenerfassung von logistischen Palettenstrukturen auf
     Basis von Low-Cost- Tiefenbildsensoren
-  venue: Tagungsband / 3D-NordOst 2013, 16. Anwendungsbezogener Workshop zur Erfassung,
+  venue:
+    Tagungsband / 3D-NordOst 2013, 16. Anwendungsbezogener Workshop zur Erfassung,
     Modellierung, Verarbeitung und Auswertung von 3D-Daten, im Rahmen der GFaI-Workshop-Familie
     NordOst, Berlin, 12./13. Dezember 2013
   urls:
-    paper: ''
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    paper: ""
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@incollection{borstellProzessintegrierteVolumenerfassungLogistischen2013,\n\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@incollection{borstellProzessintegrierteVolumenerfassungLogistischen2013,\n\
     \ author = {Borstell, Hagen and Cao, Liu and Kluth, Jewgeni and Richter, Klaus},\n\
     \ booktitle = {Tagungsband / 3D-NordOst 2013, 16. Anwendungsbezogener Workshop\
     \ zur Erfassung, Modellierung, Verarbeitung und Auswertung von 3D-Daten, im Rahmen\
@@ -132,19 +144,19 @@
     \ title = {Prozessintegrierte Volumenerfassung von logistischen Palettenstrukturen\
     \ auf Basis von Low-Cost- Tiefenbildsensoren}\n}\n"
   summary: prototyped solutions for volume scanning using two MS Kinect cameras
-  abstract: ''
+  abstract: ""
   Objects:
-  - Pallet
-  - Parcel
+    - Pallet
+    - Parcel
   CV Tasks:
-  - 3D Dimension Estimation
+    - 3D Dimension Estimation
   Data Type:
-  - RGBD
-  - Real
+    - RGBD
+    - Real
   Approach Type:
-  - Classical Approach
+    - Classical Approach
   Application:
-  - Volume Estimation
+    - Volume Estimation
 - id: brylkaAIbasedRecognitionDangerous2021
   authors: Robert Brylka, Benjamin Bierwirth, Ulrich Schwanecke
   year: 2021
@@ -152,29 +164,33 @@
   venue: null
   urls:
     paper: https://doi.org/10/gpc9mv
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: about 1.000 manually labeled and 50.000 artificial generated images for
+    name: ""
+    comment:
+      about 1.000 manually labeled and 50.000 artificial generated images for
       label detection; alidation dataset is created by manually labeling 2,260 images
       with a total of 5,820 labels; Automatically annotate 150 pallets with parcels
       that are always brown boxes and have 10 different dimensions for pointcloud
       segmentation
-    description: ''
-  bibtex: "@inproceedings{brylkaAIbasedRecognitionDangerous2021,\n author = {Brylka,\
+    description: ""
+  bibtex:
+    "@inproceedings{brylkaAIbasedRecognitionDangerous2021,\n author = {Brylka,\
     \ Robert and Bierwirth, Benjamin and Schwanecke, Ulrich},\n date = {2021-12-01},\n\
     \ doi = {10/gpc9mv},\n eventtitle = {Hamburg {{International Conference}} of {{Logistics}}\
     \ ({{HICL}}) 2021},\n isbn = {978-3-7549-2770-0},\n issn = {2365-5070},\n langid\
     \ = {english},\n pages = {245--272},\n publisher = {{epubli}},\n title = {{{AI-based}}\
     \ Recognition of Dangerous Goods Labels and Metric Package Features},\n url =\
     \ {https://tore.tuhh.de/handle/11420/11170},\n urldate = {2022-02-07}\n}\n"
-  summary: detection of dangerous goods labels and volume estimation by pointcloud
+  summary:
+    detection of dangerous goods labels and volume estimation by pointcloud
     segmentation
-  abstract: 'Purpose: Dangerous goods shipments require special labeling, which has
+  abstract:
+    "Purpose: Dangerous goods shipments require special labeling, which has
     to be checked manually every time a shipment is handed over in the supply chain.
     We describe an AI-based detection methodology to automate the recognition of dangerous
     goods labels and other shipment features (such as single piece volume detection).  Methodology:
@@ -190,25 +206,25 @@
     Parallel detection of multiple package features (volume, barcode, dangerous goods
     labels) of multiple pieces consolidated on a pallet is not available yet. Our
     solution processes a shipment faster and more accurately than existing single-piece
-    solutions without restrictions to the material flow.'
+    solutions without restrictions to the material flow."
   Objects:
-  - Parcel
-  - Pallet
-  - Label
+    - Parcel
+    - Pallet
+    - Label
   CV Tasks:
-  - Object Detection
-  - 3D Object Detection
+    - Object Detection
+    - 3D Object Detection
   Data Type:
-  - RGB
-  - RGBD
-  - Real
-  - Synthetic
+    - RGB
+    - RGBD
+    - Real
+    - Synthetic
   Approach Type:
-  - Deep Learning
+    - Deep Learning
   Application:
-  - Label Recognition
-  - Volume Estimation
-  - Depalletization
+    - Label Recognition
+    - Volume Estimation
+    - Depalletization
 - id: brylkaCameraBasedBarcode2020
   authors: Robert Brylka, Ulrich Schwanecke, Benjamin Bierwirth
   year: 2020
@@ -216,16 +232,17 @@
   venue: 2020 International Conference on Omni-layer Intelligent Systems (COINS)
   urls:
     paper: https://doi.org/10.1109/COINS49042.2020.9191416
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@inproceedings{brylkaCameraBasedBarcode2020,\n author = {Brylka, Robert\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@inproceedings{brylkaCameraBasedBarcode2020,\n author = {Brylka, Robert\
     \ and Schwanecke, Ulrich and Bierwirth, Benjamin},\n booktitle = {2020 {{International\
     \ Conference}} on {{Omni-layer Intelligent Systems}} ({{COINS}})},\n date = {2020-08},\n\
     \ doi = {10.1109/COINS49042.2020.9191416},\n eventtitle = {2020 {{International\
@@ -233,7 +250,8 @@
     \ title = {Camera {{Based Barcode Localization}} and {{Decoding}} in {{Real-World\
     \ Applications}}}\n}\n"
   summary: detecting barcodes in images
-  abstract: In the last decades, many approaches were presented to localize and decode
+  abstract:
+    In the last decades, many approaches were presented to localize and decode
     barcodes in images from off the shelf cameras. However, all proposed solutions
     usually only deal with one type of image artifacts, such as a poorly illuminated
     or noisy image, or an image that suffers from motion or out-of-focus blur. In
@@ -245,35 +263,39 @@
     i.e., where the width of the smallest bar depicted is smaller than the width of
     a single pixel.
   Objects:
-  - Label
+    - Label
   CV Tasks: []
   Data Type:
-  - Synthetic
-  - RGB
+    - Synthetic
+    - RGB
   Approach Type:
-  - Deep Learning
+    - Deep Learning
   Application:
-  - Label Recognition
+    - Label Recognition
 - id: chiaravalliIntegrationMultiCameraVision2020
-  authors: Davide Chiaravalli, Gianluca Palli, Riccardo Monica, Jacopo Aleotti, Dario
+  authors:
+    Davide Chiaravalli, Gianluca Palli, Riccardo Monica, Jacopo Aleotti, Dario
     Lodi Rizzini
   year: 2020
-  title: Integration of a Multi-Camera Vision System and Admittance Control for Robotic
+  title:
+    Integration of a Multi-Camera Vision System and Admittance Control for Robotic
     Industrial Depalletizing
-  venue: 2020 25th IEEE International Conference on Emerging Technologies and Factory
+  venue:
+    2020 25th IEEE International Conference on Emerging Technologies and Factory
     Automation (ETFA)
   urls:
     paper: https://doi.org/10.1109/ETFA46521.2020.9212020
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@inproceedings{chiaravalliIntegrationMultiCameraVision2020,\n author =\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@inproceedings{chiaravalliIntegrationMultiCameraVision2020,\n author =\
     \ {Chiaravalli, Davide and Palli, Gianluca and Monica, Riccardo and Aleotti, Jacopo\
     \ and Rizzini, Dario Lodi},\n booktitle = {2020 25th {{IEEE International Conference}}\
     \ on {{Emerging Technologies}} and {{Factory Automation}} ({{ETFA}})},\n date\
@@ -282,9 +304,11 @@
     \ Automation}} ({{ETFA}})},\n issn = {1946-0759},\n pages = {667--674},\n title\
     \ = {Integration of a {{Multi-Camera Vision System}} and {{Admittance Control}}\
     \ for {{Robotic Industrial Depalletizing}}},\n volume = {1}\n}\n"
-  summary: depalletizing using a robot with a fixed time-of-flight camera and an eye-in-hand
+  summary:
+    depalletizing using a robot with a fixed time-of-flight camera and an eye-in-hand
     RGB camera
-  abstract: This work addresses the task of robot depalletizing by means of a mobile
+  abstract:
+    This work addresses the task of robot depalletizing by means of a mobile
     manipulator, taking into account the problem of localizing the boxes to be removed
     from the pallet and a manipulation strategy that allows to pull the boxes without
     lifting them with the robot arm. The depalletizing task is of particular interest
@@ -297,18 +321,18 @@
     a fixed-based robotic manipulator are reported to show the effectiveness of the
     perception and control system.
   Objects:
-  - Parcel
+    - Parcel
   CV Tasks:
-  - Edge Detection
+    - Edge Detection
   Data Type:
-  - RGB
-  - RGBD
-  - Real
+    - RGB
+    - RGBD
+    - Real
   Approach Type:
-  - Template Matching
-  - Classical Approach
+    - Template Matching
+    - Classical Approach
   Application:
-  - Depalletization
+    - Depalletization
 - id: clausenParcelTrackingDetection2019
   authors: Sascha Clausen, Claudius Zelenka, Tobias Schwede, Reinhard Koch
   year: 2019
@@ -316,17 +340,19 @@
   venue: Pattern Recognition
   urls:
     paper: https://doi.org/10/gpc9md
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: 'manually labeled dataset of 3306 images from 37 different cameras, which
-      contain a total of 14,248 parcels '
-    description: ''
-  bibtex: "@inproceedings{clausenParcelTrackingDetection2019,\n author = {Clausen,\
+    name: ""
+    comment:
+      "manually labeled dataset of 3306 images from 37 different cameras, which
+      contain a total of 14,248 parcels "
+    description: ""
+  bibtex:
+    "@inproceedings{clausenParcelTrackingDetection2019,\n author = {Clausen,\
     \ Sascha and Zelenka, Claudius and Schwede, Tobias and Koch, Reinhard},\n booktitle\
     \ = {Pattern {{Recognition}}},\n date = {2019},\n doi = {10/gpc9md},\n editor\
     \ = {Brox, Thomas and Bruhn, Andrés and Fritz, Mario},\n isbn = {978-3-030-12939-2},\n\
@@ -335,7 +361,8 @@
     \ Science}}},\n title = {Parcel {{Tracking}} by {{Detection}} in {{Large Camera\
     \ Networks}}}\n}\n"
   summary: industry scale approach for tracking parcels in a logistics facility.
-  abstract: Inside parcel distribution hubs, several tenth of up 100 000 parcels processed
+  abstract:
+    Inside parcel distribution hubs, several tenth of up 100 000 parcels processed
     each day get lost. Human operators have to tediously recover these parcels by
     searching through large amounts of video footage from the installed large-scale
     camera network. We want to assist these operators and work towards an automatic
@@ -349,22 +376,22 @@
     of the calibration parcel for each conveyor belt. With these methods, most parcels
     can be tracked start-to-end.
   Objects:
-  - Parcel
+    - Parcel
   CV Tasks:
-  - Object Re-Identification
+    - Object Re-Identification
   Data Type:
-  - RGB
-  - Real
+    - RGB
+    - Real
   Approach Type:
-  - Deep Learning
-  - Fiducial Markers
+    - Deep Learning
+    - Fiducial Markers
   Application:
-  - Tracking and Tracing
+    - Tracking and Tracing
 - id: dorrDigitalMeasuringLoad2023
   authors: Laura Dörr, Katharina Glock, Felix Brandt, Alexander Naumann, Martin Pouls
   year: 2023
   title: A Digital Measuring and Load Planning System for Large Transport Assets
-  venue: '2023 International Scientific Symposium on Logistics: Conference Volume'
+  venue: "2023 International Scientific Symposium on Logistics: Conference Volume"
   urls:
     paper: https://slub.qucosa.de/api/qucosa%3A85570/attachment/ATT-0/
     project: null
@@ -376,7 +403,8 @@
     name: null
     comment: null
     description: null
-  bibtex: "@inproceedings{dorrDigitalMeasuringLoad2023,\n    title        = {A {{Digital\
+  bibtex:
+    "@inproceedings{dorrDigitalMeasuringLoad2023,\n    title        = {A {{Digital\
     \ Measuring}} and {{Load Planning System}} for {{Large Transport Assets}}},\n\
     \    author       = {D{\\\"o}rr, Laura and Glock, Katharina and Brandt, Felix\
     \ and Naumann, Alexander and Pouls, Martin},\n    year         = 2023,\n    month\
@@ -385,9 +413,11 @@
     \ Logistik (BVL) e.V., Berlin}},\n    pages        = {49--55},\n    doi      \
     \    = {10.25366/2023.124},\n    urldate      = {2023-07-07},\n    langid    \
     \   = {english}\n}\n"
-  summary: Digital measuring and load planning for large, regularly shaped wooden
+  summary:
+    Digital measuring and load planning for large, regularly shaped wooden
     assets.
-  abstract: Recently, the efforts involved in the digitization and digitalization
+  abstract:
+    Recently, the efforts involved in the digitization and digitalization
     of logistics processes have grown tremendously. In line with such efforts, we
     investigate the potential of the process-integrated measuring and load planning
     of large transport assets. More precisely, considering the case of a German timber
@@ -397,21 +427,21 @@
     transportation on a forklift. The resulting data can be used to conduct a comprehensive
     load planning for scheduled delivery tours.
   Objects:
-  - Fork Lift
-  - Other
+    - Fork Lift
+    - Other
   CV Tasks:
-  - Pointcloud Segmetation
-  - 3D Object Detection
+    - Pointcloud Segmetation
+    - 3D Object Detection
   Data Type:
-  - RGB
-  - Pointcloud
-  - Real
+    - RGB
+    - Pointcloud
+    - Real
   Approach Type:
-  - Classical Approach
-  - Fiducial Markers
+    - Classical Approach
+    - Fiducial Markers
   Application:
-  - Volume Estimation
-  - Loading and Unloading
+    - Volume Estimation
+    - Loading and Unloading
 - id: dorrFullyAutomatedPackagingStructure2020
   authors: Laura Dörr, Felix Brandt, Martin Pouls, Alexander Naumann
   year: 2020
@@ -419,16 +449,17 @@
   venue: International Conference on Emerging Technologies and Factory Automation
   urls:
     paper: http://arxiv.org/abs/2008.04620
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
+    name: ""
     comment: Manually labeled dataset contains a total of 1,267 images
-    description: ''
-  bibtex: "@inproceedings{dorrFullyAutomatedPackagingStructure2020,\n author = {Dörr,\
+    description: ""
+  bibtex:
+    "@inproceedings{dorrFullyAutomatedPackagingStructure2020,\n author = {Dörr,\
     \ Laura and Brandt, Felix and Pouls, Martin and Naumann, Alexander},\n booktitle\
     \ = {International {{Conference}} on {{Emerging Technologies}} and {{Factory Automation}}},\n\
     \ date = {2020-08-11},\n eprint = {2008.04620},\n eprinttype = {arxiv},\n eventtitle\
@@ -437,7 +468,8 @@
     \ Recognition}} in {{Logistics Environments}}},\n url = {http://arxiv.org/abs/2008.04620},\n\
     \ urldate = {2020-10-15}\n}\n"
   summary: Localization of pallets and the analysis of their composition
-  abstract: 'Within a logistics supply chain, a large variety of transported goods
+  abstract:
+    'Within a logistics supply chain, a large variety of transported goods
     need to be handled, recognized and checked at many different network points. Often,
     huge manual effort is involved in recognizing or verifying packet identity or
     packaging structure, for instance to check the delivery for completeness. We propose
@@ -452,35 +484,37 @@
     packaging structure in approximately 85\% of our test cases, and even more (91\%)
     when focusing on most common package types.'
   Objects:
-  - Pallet
-  - Small Load Carrier
+    - Pallet
+    - Small Load Carrier
   CV Tasks: []
   Data Type:
-  - RGB
-  - Real
+    - RGB
+    - Real
   Approach Type:
-  - Deep Learning
+    - Deep Learning
   Application:
-  - Verify Completeness
-  - Item Recognition
+    - Verify Completeness
+    - Item Recognition
 - id: dorrLeanTrainingData2019
   authors: Laura Dörr, Felix Brandt, Anne Meyer, Martin Pouls
   year: 2019
-  title: Lean Training Data Generation for Planar Object Detection Models in Unsteady
+  title:
+    Lean Training Data Generation for Planar Object Detection Models in Unsteady
     Logistics Contexts
   venue: IEEE International Conference On Machine Learning And Applications (ICMLA)
   urls:
     paper: https://doi.org/10/ghd2cg
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@inproceedings{dorrLeanTrainingData2019,\n author = {Dörr, Laura and Brandt,\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@inproceedings{dorrLeanTrainingData2019,\n author = {Dörr, Laura and Brandt,\
     \ Felix and Meyer, Anne and Pouls, Martin},\n booktitle = {{{IEEE International\
     \ Conference On Machine Learning And Applications}} ({{ICMLA}})},\n date = {2019-12},\n\
     \ doi = {10/ghd2cg},\n eventtitle = {{{IEEE International Conference On Machine\
@@ -490,7 +524,8 @@
     \ Detection Models}} in {{Unsteady Logistics Contexts}}},\n url = {https://ieeexplore.ieee.org/document/8999123/},\n\
     \ urldate = {2020-10-07}\n}\n"
   summary: Training data generation for shipping label detection
-  abstract: 'Supervised deep learning has become the state of the art method for object
+  abstract:
+    "Supervised deep learning has become the state of the art method for object
     detection and is used in many application areas such as autonomous driving, manufacturing
     industries or security systems. The acquisition of annotated data sets for the
     training of neural networks is highly time-consuming and errorprone. Thus, the
@@ -509,34 +544,35 @@
     and evaluate the introduced method on a new and publicly available example data
     set relevant for logistics transport label detection. We show that accurate models
     can be trained exclusively on synthetic training data and we compare their performance
-    to models trained on real, manually annotated images.'
+    to models trained on real, manually annotated images."
   Objects:
-  - Label
+    - Label
   CV Tasks: []
   Data Type:
-  - Synthetic
-  - RGB
+    - Synthetic
+    - RGB
   Approach Type:
-  - Deep Learning
+    - Deep Learning
   Application:
-  - Label Recognition
+    - Label Recognition
 - id: dorrTetraPackNetFourCornerBasedObject2021
   authors: Laura Dörr, Felix Brandt, Alexander Naumann, Martin Pouls
   year: 2021
-  title: 'TetraPackNet: Four-Corner-Based Object Detection in Logistics Use-Cases'
+  title: "TetraPackNet: Four-Corner-Based Object Detection in Logistics Use-Cases"
   venue: DAGM German Conference on Pattern Recognition
   urls:
     paper: http://arxiv.org/abs/2104.09123
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@inproceedings{dorrTetraPackNetFourCornerBasedObject2021,\n author = {Dörr,\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@inproceedings{dorrTetraPackNetFourCornerBasedObject2021,\n author = {Dörr,\
     \ Laura and Brandt, Felix and Naumann, Alexander and Pouls, Martin},\n booktitle\
     \ = {{{DAGM German Conference}} on {{Pattern Recognition}}},\n date = {2021},\n\
     \ eprint = {2104.09123},\n eprinttype = {arxiv},\n eventtitle = {{{DAGM German\
@@ -545,7 +581,8 @@
     \ Use-Cases}}},\n url = {http://arxiv.org/abs/2104.09123},\n urldate = {2022-01-09}\n\
     }\n"
   summary: Localization of pallets and the analysis of their composition
-  abstract: While common image object detection tasks focus on bounding boxes or segmentation
+  abstract:
+    While common image object detection tasks focus on bounding boxes or segmentation
     masks as object representations, we consider the problem of finding objects based
     on four arbitrary vertices. We propose a novel model, named TetraPackNet, to tackle
     this problem. TetraPackNet is based on CornerNet and uses similar algorithms and
@@ -557,42 +594,45 @@
     results (9\% higher in accuracy) in the sub-task of four-corner based transport
     unit side detection.
   Objects:
-  - Pallet
-  - Small Load Carrier
+    - Pallet
+    - Small Load Carrier
   CV Tasks: []
   Data Type:
-  - RGB
-  - Real
+    - RGB
+    - Real
   Approach Type:
-  - Deep Learning
+    - Deep Learning
   Application:
-  - Verify Completeness
-  - Item Recognition
+    - Verify Completeness
+    - Item Recognition
 - id: fontanaComparativeAssessmentParcel2021
   authors: Ernesto Fontana, William Zarotti, Dario Lodi Rizzini
   year: 2021
-  title: A Comparative Assessment of Parcel Box Detection Algorithms for Industrial
+  title:
+    A Comparative Assessment of Parcel Box Detection Algorithms for Industrial
     Applications
   venue: 2021 European Conference on Mobile Robots (ECMR)
   urls:
     paper: https://doi.org/10/gpc9mm
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@inproceedings{fontanaComparativeAssessmentParcel2021,\n author = {Fontana,\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@inproceedings{fontanaComparativeAssessmentParcel2021,\n author = {Fontana,\
     \ Ernesto and Zarotti, William and Lodi Rizzini, Dario},\n booktitle = {2021 {{European\
     \ Conference}} on {{Mobile Robots}} ({{ECMR}})},\n date = {2021-08},\n doi = {10/gpc9mm},\n\
     \ eventtitle = {2021 {{European Conference}} on {{Mobile Robots}} ({{ECMR}})},\n\
     \ pages = {1--6},\n title = {A {{Comparative Assessment}} of {{Parcel Box Detection\
     \ Algorithms}} for {{Industrial Applications}}}\n}\n"
-  summary: ''
-  abstract: Industrial logistics may benefit from object perception to perform flexible
+  summary: ""
+  abstract:
+    Industrial logistics may benefit from object perception to perform flexible
     and efficient management of goods. This paper illustrates and experimentally compares
     two approaches to parcel box detection in depth images for an industrial depalletization
     task. The model-based method detects clusters in the input point cloud according
@@ -602,33 +642,35 @@
     poses are evaluated through standard geometric registration. The experiments on
     acquired datasets show the feasibility of the two approaches.
   Objects:
-  - Parcel
+    - Parcel
   CV Tasks:
-  - Object Detection
+    - Object Detection
   Data Type:
-  - RGBD
+    - RGBD
   Approach Type:
-  - Classical Approach
-  - Deep Learning
+    - Classical Approach
+    - Deep Learning
   Application: []
 - id: grzeszickCameraassistedPickbyfeel2016
-  authors: Réné Grzeszick, Sascha Feldhorst, Christian Mosblech, Gernot A. Fink, Michael
+  authors:
+    Réné Grzeszick, Sascha Feldhorst, Christian Mosblech, Gernot A. Fink, Michael
     Ten Hompel
   year: 2016
   title: Camera-Assisted Pick-by-feel
   venue: null
   urls:
     paper: https://doi.org/10.2195/lj_proc_grzeszick_en_201610_01
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@article{grzeszickCameraassistedPickbyfeel2016,\n author = {Grzeszick,\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@article{grzeszickCameraassistedPickbyfeel2016,\n author = {Grzeszick,\
     \ Réné and Feldhorst, Sascha and Mosblech, Christian and Fink, Gernot A. and Ten\
     \ Hompel, Michael},\n date = {2016},\n doi = {10.2195/lj_proc_grzeszick_en_201610_01},\n\
     \ langid = {english},\n title = {Camera-Assisted {{Pick-by-feel}}},\n url = {http://www.logistics-journal.de/proceedings/2016/fachkolloquium2016/4455},\n\
@@ -636,16 +678,16 @@
   summary: assist the picking process with wearables
   abstract: Volume 2016, Issue 10
   Objects:
-  - Label
+    - Label
   CV Tasks:
-  - Augmented Reality
-  - Activity Recognition
+    - Augmented Reality
+    - Activity Recognition
   Data Type:
-  - Real
+    - Real
   Approach Type:
-  - Deep Learning
+    - Deep Learning
   Application:
-  - Order Picking
+    - Order Picking
 - id: haanpaaMachineVisionAlgorithms2016
   authors: Doug Haanpaa, Glenn Beach, Charles J. Cohen
   year: 2016
@@ -653,16 +695,17 @@
   venue: 2016 IEEE Applied Imagery Pattern Recognition Workshop (AIPR)
   urls:
     paper: https://doi.org/10.1109/AIPR.2016.8010590
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@inproceedings{haanpaaMachineVisionAlgorithms2016,\n author = {Haanpaa,\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@inproceedings{haanpaaMachineVisionAlgorithms2016,\n author = {Haanpaa,\
     \ Doug and Beach, Glenn and Cohen, Charles J.},\n booktitle = {2016 {{IEEE Applied\
     \ Imagery Pattern Recognition Workshop}} ({{AIPR}})},\n date = {2016-10},\n doi\
     \ = {10.1109/AIPR.2016.8010590},\n eventtitle = {2016 {{IEEE Applied Imagery Pattern\
@@ -672,19 +715,19 @@
     \ and Stacking},\n url = {http://ieeexplore.ieee.org/document/8010590/},\n urldate\
     \ = {2019-05-09}\n}\n"
   summary: pallet engagement in the context of military logistics
-  abstract: ''
+  abstract: ""
   Objects:
-  - Pallet
+    - Pallet
   CV Tasks: []
   Data Type:
-  - Real
-  - RGB
-  - RGBD
+    - Real
+    - RGB
+    - RGBD
   Approach Type:
-  - Fiducial Markers
-  - Classical Approach
+    - Fiducial Markers
+    - Classical Approach
   Application:
-  - Pallet Handling
+    - Pallet Handling
 - id: hochsteinPackassistentAssistenzsystemFuer2016
   authors: Maximilian Hochstein, Johannes Glöckle, Thomas Meyer, Kai Furmans
   year: 2016
@@ -692,56 +735,61 @@
   venue: null
   urls:
     paper: https://doi.org/10.2195/lj_proc_hochstein_de_201610_01
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@misc{hochsteinPackassistentAssistenzsystemFuer2016,\n author = {Hochstein,\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@misc{hochsteinPackassistentAssistenzsystemFuer2016,\n author = {Hochstein,\
     \ Maximilian and Glöckle, Johannes and Meyer, Thomas and Furmans, Kai},\n date\
     \ = {2016},\n doi = {10.2195/lj_proc_hochstein_de_201610_01},\n langid = {ngerman},\n\
     \ publisher = {{Wissenschaftliche Gesellschaft für Technische Logistik}},\n title\
     \ = {Packassistent – Assistenzsystem für die Qualitätskontrolle während des Packprozesses},\n\
     \ url = {http://www.logistics-journal.de/proceedings/2016/fachkolloquium2016/4471},\n\
     \ urldate = {2019-11-22}\n}\n"
-  summary: assistance system based on augmented reality for quality control during
+  summary:
+    assistance system based on augmented reality for quality control during
     the packing process
   abstract: Volume 2016, Issue 10
   Objects:
-  - Parcel
-  - Other
+    - Parcel
+    - Other
   CV Tasks:
-  - Augmented Reality
+    - Augmented Reality
   Data Type:
-  - Real
-  - RGB
-  - RGBD
+    - Real
+    - RGB
+    - RGBD
   Approach Type: []
   Application:
-  - Packaging for Shipment
+    - Packaging for Shipment
 - id: huCuboidDetectionTracking2021
   authors: Haohao Hu, Fabian Immel, Johannes Janosovits, Martin Lauer, Christoph Stiller
   year: 2021
-  title: A Cuboid Detection and Tracking System Using A Multi RGBD Camera Setup for
+  title:
+    A Cuboid Detection and Tracking System Using A Multi RGBD Camera Setup for
     Intelligent Manipulation and Logistics
-  venue: 2021 IEEE 17th International Conference on Automation Science and Engineering
+  venue:
+    2021 IEEE 17th International Conference on Automation Science and Engineering
     (CASE)
   urls:
     paper: https://doi.org/10/gpfnh2
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@inproceedings{huCuboidDetectionTracking2021,\n author = {Hu, Haohao and\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@inproceedings{huCuboidDetectionTracking2021,\n author = {Hu, Haohao and\
     \ Immel, Fabian and Janosovits, Johannes and Lauer, Martin and Stiller, Christoph},\n\
     \ booktitle = {2021 {{IEEE}} 17th {{International Conference}} on {{Automation\
     \ Science}} and {{Engineering}} ({{CASE}})},\n date = {2021-08},\n doi = {10/gpfnh2},\n\
@@ -750,7 +798,8 @@
     \ title = {A {{Cuboid Detection}} and {{Tracking System}} Using {{A Multi RGBD\
     \ Camera Setup}} for {{Intelligent Manipulation}} and {{Logistics}}}\n}\n"
   summary: tracking parcels inside a moving truck
-  abstract: Cuboid objects are widely used in logistics and manufacturing, since they
+  abstract:
+    Cuboid objects are widely used in logistics and manufacturing, since they
     are ideal for automatic manipulation. For that, a reliable detection, identification
     and tracking algorithm of cuboid objects is a key requirement. RGBD cameras are
     suited for these tasks, however they suffer from limitations such as occlusions
@@ -768,35 +817,37 @@
     system is tested and analyzed with a recorded dataset, which contents variant
     constellations. The reliability and accuracy are demonstrated.
   Objects:
-  - Parcel
+    - Parcel
   CV Tasks:
-  - Object Tracking
-  - 3D Object Detection
+    - Object Tracking
+    - 3D Object Detection
   Data Type:
-  - RGBD
-  - Real
+    - RGBD
+    - Real
   Approach Type:
-  - Deep Learning
+    - Deep Learning
   Application:
-  - Tracking and Tracing
+    - Tracking and Tracing
 - id: kamnardsiri1DBarcodeDetection2022
   authors: Teerawat Kamnardsiri, Phasit Charoenkwan, Chommaphat Malang, Ratapol Wudhikarn
   year: 2022
-  title: '1D Barcode Detection: Novel Benchmark Datasets and Comprehensive Comparison
-    of Deep Convolutional Neural Network Approaches'
+  title:
+    "1D Barcode Detection: Novel Benchmark Datasets and Comprehensive Comparison
+    of Deep Convolutional Neural Network Approaches"
   venue: Sensors
   urls:
     paper: https://doi.org/10.3390/s22228788
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
+    name: ""
     comment: InventBar and ParcelBar with 527 and 844 images
-    description: ''
-  bibtex: "@article{kamnardsiri1DBarcodeDetection2022,\n author = {Kamnardsiri, Teerawat\
+    description: ""
+  bibtex:
+    "@article{kamnardsiri1DBarcodeDetection2022,\n author = {Kamnardsiri, Teerawat\
     \ and Charoenkwan, Phasit and Malang, Chommaphat and Wudhikarn, Ratapol},\n date\
     \ = {2022-11-14},\n doi = {10.3390/s22228788},\n issn = {1424-8220},\n journaltitle\
     \ = {Sensors},\n langid = {english},\n number = {22},\n pages = {8788},\n shortjournal\
@@ -805,7 +856,8 @@
     \ {{Deep Convolutional Neural Network Approaches}}},\n url = {https://www.mdpi.com/1424-8220/22/22/8788},\n\
     \ urldate = {2023-01-24},\n volume = {22}\n}\n"
   summary: comparison of CNNs for barcode detection
-  abstract: 'Recent advancement in Deep Learning-based Convolutional Neural Networks
+  abstract:
+    "Recent advancement in Deep Learning-based Convolutional Neural Networks
     (D-CNNs) has led research to improve the efficiency and performance of barcode
     recognition in Supply Chain Management (SCM). D-CNNs required real-world images
     embedded with ground truth data, which is often not readily available in the case
@@ -821,37 +873,40 @@
     R-CNN could allow the model to learn faster with a small drop in accuracy. It
     is proven that the proposed datasets can be practically utilized for the mainstream
     D-CNN frameworks. Both are available for developing barcode recognition models
-    and positively affect comparative studies.'
+    and positively affect comparative studies."
   Objects:
-  - Parcel
-  - Label
+    - Parcel
+    - Label
   CV Tasks: []
   Data Type:
-  - Real
-  - RGB
+    - Real
+    - RGB
   Approach Type:
-  - Deep Learning
+    - Deep Learning
   Application:
-  - Label Recognition
+    - Label Recognition
 - id: kluttermannGraphRepresentationBased2022
-  authors: Simon Klüttermann, Jérôme Rutinowski, Christopher Reining, Moritz Roidl,
+  authors:
+    Simon Klüttermann, Jérôme Rutinowski, Christopher Reining, Moritz Roidl,
     Emmanuel Müller
   year: 2022
   title: Towards Graph Representation Based Re-Identification of Chipwood Pallet Blocks
-  venue: 2022 21st IEEE International Conference on Machine Learning and Applications
+  venue:
+    2022 21st IEEE International Conference on Machine Learning and Applications
     (ICMLA)
   urls:
     paper: https://doi.org/10.1109/ICMLA55696.2022.00279
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@inproceedings{kluttermannGraphRepresentationBased2022,\n author = {Klüttermann,\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@inproceedings{kluttermannGraphRepresentationBased2022,\n author = {Klüttermann,\
     \ Simon and Rutinowski, Jérôme and Reining, Christopher and Roidl, Moritz and\
     \ Müller, Emmanuel},\n booktitle = {2022 21st {{IEEE International Conference}}\
     \ on {{Machine Learning}} and {{Applications}} ({{ICMLA}})},\n date = {2022-12},\n\
@@ -860,7 +915,8 @@
     \ = {1543--1550},\n title = {Towards {{Graph Representation}} Based {{Re-Identification}}\
     \ of {{Chipwood Pallet Blocks}}}\n}\n"
   summary: re-identification for chipwood pallet blocks of Euro pallets
-  abstract: This contribution provides a novel graph representation-based approach
+  abstract:
+    This contribution provides a novel graph representation-based approach
     for the re-identification of chipwood surface structures and, in the herein observed
     use case, the re-identification of Euro-pallets. For this purpose, we suggest,
     in contrast to common re-identification approaches, replacing the usual image
@@ -877,34 +933,36 @@
     model is not affected by rotation or shearing, demonstrating the model’s invariance
     to these environmental changes.
   Objects:
-  - Pallet
+    - Pallet
   CV Tasks:
-  - Object Re-Identification
+    - Object Re-Identification
   Data Type:
-  - RGB
-  - Real
+    - RGB
+    - Real
   Approach Type:
-  - Deep Learning
+    - Deep Learning
   Application:
-  - Tracking and Tracing
+    - Tracking and Tracing
 - id: kucukDevelopmentDimensionsMeasurement2019
   authors: Haluk Kucuk, Mohammad T. Al Muallim, Fikret Yılmaz, Metin Kahraman
   year: 2019
-  title: Development of a Dimensions Measurement System Based on Depth Camera for
+  title:
+    Development of a Dimensions Measurement System Based on Depth Camera for
     Logistic Applications
   venue: Eleventh International Conference on Machine Vision (ICMV 2018)
   urls:
     paper: https://doi.org/10.1117/12.2523123
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@inproceedings{kucukDevelopmentDimensionsMeasurement2019,\n author = {Kucuk,\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@inproceedings{kucukDevelopmentDimensionsMeasurement2019,\n author = {Kucuk,\
     \ Haluk and Al Muallim, Mohammad T. and Yılmaz, Fikret and Kahraman, Metin},\n\
     \ booktitle = {Eleventh {{International Conference}} on {{Machine Vision}} ({{ICMV}}\
     \ 2018)},\n date = {2019-03-15},\n doi = {10.1117/12.2523123},\n editor = {Nikolaev,\
@@ -916,7 +974,8 @@
     \ {https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11041/2523123/Development-of-a-dimensions-measurement-system-based-on-depth-camera/10.1117/12.2523123.full},\n\
     \ urldate = {2019-11-18}\n}\n"
   summary: dimension estimation of static objects for logistic applications
-  abstract: 'In this work a dimension estimation system is developed for logistic
+  abstract:
+    "In this work a dimension estimation system is developed for logistic
     applications. The purpose of the system is to find the oriented minimum bounding
     box of a package. The volume of the bounding box and the volumetric weight of
     the package were determined. Intel® RealSense™ Depth Camera D415 was used to obtain
@@ -927,19 +986,19 @@
     uncalibrated box, cube with a sloped side, small cylinder, tube and cylinder with
     irregular top. Statistical analysis of the measurements revealed an average error
     rates less than 0.5cm for normal work conditions. This error rate is acceptable
-    for most logistic operations.'
+    for most logistic operations."
   Objects:
-  - Parcel
-  - Multiple
+    - Parcel
+    - Multiple
   CV Tasks:
-  - 3D Dimension Estimation
+    - 3D Dimension Estimation
   Data Type:
-  - RGBD
-  - Real
+    - RGBD
+    - Real
   Approach Type:
-  - Classical Approach
+    - Classical Approach
   Application:
-  - Volume Estimation
+    - Volume Estimation
 - id: laotrakunchaiMeasurementSizeDistance2013
   authors: Suraphol Laotrakunchai, Akarapas Wongkaew, Karn Patanukhom
   year: 2013
@@ -947,16 +1006,17 @@
   venue: 2013 International Conference on Signal-Image Technology Internet-Based Systems
   urls:
     paper: https://doi.org/10/ggdhmq
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@inproceedings{laotrakunchaiMeasurementSizeDistance2013,\n author = {Laotrakunchai,\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@inproceedings{laotrakunchaiMeasurementSizeDistance2013,\n author = {Laotrakunchai,\
     \ Suraphol and Wongkaew, Akarapas and Patanukhom, Karn},\n booktitle = {2013 {{International\
     \ Conference}} on {{Signal-Image Technology Internet-Based Systems}}},\n date\
     \ = {2013-12},\n doi = {10/ggdhmq},\n eventtitle = {2013 {{International Conference}}\
@@ -964,7 +1024,8 @@
     \ = {156--161},\n title = {Measurement of {{Size}} and {{Distance}} of {{Objects\
     \ Using Mobile Devices}}}\n}\n"
   summary: estimating the volume of a single parcel using a mobile device
-  abstract: This paper proposes methods for measuring size and distance of target
+  abstract:
+    This paper proposes methods for measuring size and distance of target
     objects by using mobile devices. For close-range measurement of a size of an object,
     users must hold the device close to the object and drag it along a desired direction.
     We develop a new approach for estimating a dragging distance of the device using
@@ -979,37 +1040,40 @@
     learning-based scheme. Experimental results are presented to demonstrate a performance
     of the proposed methods.
   Objects:
-  - Parcel
-  - Parcel
+    - Parcel
+    - Parcel
   CV Tasks:
-  - Keypoint Matching
+    - Keypoint Matching
   Data Type:
-  - RGB
-  - Real
+    - RGB
+    - Real
   Approach Type:
-  - Template Matching
-  - Classical Approach
+    - Template Matching
+    - Classical Approach
   Application:
-  - Volume Estimation
+    - Volume Estimation
 - id: liComputerVisionBased2021
   authors: Yifan Li, Yingchun Niu, Yang Liu, Li Zheng, Zichen Wang, Wenming Zhe
   year: 2021
-  title: Computer Vision Based Conveyor Belt Congestion Recognition in Logistics Industrial
+  title:
+    Computer Vision Based Conveyor Belt Congestion Recognition in Logistics Industrial
     Parks
-  venue: 2021 26th IEEE International Conference on Emerging Technologies and Factory
+  venue:
+    2021 26th IEEE International Conference on Emerging Technologies and Factory
     Automation (ETFA )
   urls:
     paper: https://doi.org/10/gn8sk6
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
+    name: ""
     comment: 160, 000 videos that were manually labelled
-    description: ''
-  bibtex: "@inproceedings{liComputerVisionBased2021,\n author = {Li, Yifan and Niu,\
+    description: ""
+  bibtex:
+    "@inproceedings{liComputerVisionBased2021,\n author = {Li, Yifan and Niu,\
     \ Yingchun and Liu, Yang and Zheng, Li and Wang, Zichen and Zhe, Wenming},\n booktitle\
     \ = {2021 26th {{IEEE International Conference}} on {{Emerging Technologies}}\
     \ and {{Factory Automation}} ({{ETFA}} )},\n date = {2021-09},\n doi = {10/gn8sk6},\n\
@@ -1018,7 +1082,8 @@
     \ {{Vision Based Conveyor Belt Congestion Recognition}} in {{Logistics Industrial\
     \ Parks}}}\n}\n"
   summary: recognize congestions on conveyor belts
-  abstract: Various automatic and intelligent technologies have been employed to facilitate
+  abstract:
+    Various automatic and intelligent technologies have been employed to facilitate
     the logistics operations in recent years promoted by the trend of industry 4.0.
     As the most frequently used automatic equipment in the logistics industrial parks,
     conveyor belt plays a critical role on the efficient sorting of packages. Due
@@ -1034,39 +1099,41 @@
     pattern recognition-based methods on both detection accuracy and capability of
     generalization.
   Objects:
-  - Conveyor Belt
-  - Parcel
+    - Conveyor Belt
+    - Parcel
   CV Tasks: []
   Data Type:
-  - Real
-  - RGB
+    - Real
+    - RGB
   Approach Type:
-  - Classical Approach
+    - Classical Approach
   Application:
-  - Verify Occupancy
+    - Verify Occupancy
 - id: liUsingKinectMonitoring2012
   authors: Xingyan Li, Ian Yen-Hung Chen, Stephen Thomas, Bruce A MacDonald
   year: 2012
   title: Using Kinect for Monitoring Warehouse Order Picking Operations
   venue: Proceedings of Australasian Conference on Robotics and Automation
   urls:
-    paper: ''
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    paper: ""
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@article{liUsingKinectMonitoring2012,\n author = {Li, Xingyan and Chen,\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@article{liUsingKinectMonitoring2012,\n author = {Li, Xingyan and Chen,\
     \ Ian Yen-Hung and Thomas, Stephen and MacDonald, Bruce A},\n date = {2012},\n\
     \ journaltitle = {Proceedings of Australasian Conference on Robotics and Automation},\n\
     \ langid = {english},\n pages = {7},\n title = {Using {{Kinect}} for Monitoring\
     \ Warehouse Order Picking Operations}\n}\n"
   summary: monitoring warehouse order picking
-  abstract: In this paper we address the problem of monitoring warehouse order picking
+  abstract:
+    In this paper we address the problem of monitoring warehouse order picking
     using a Kinect sensor, which provides RGB and depth information. We propose a
     new method that uses both 2D and 3D sensory data from the Kinect sensor for recognizing
     cuboids in an item picking scenario. 2D local texture based features are derived
@@ -1081,37 +1148,39 @@
     and process monitoring. Many box-shape items of different sizes, shapes and pattern
     textures are tested. The proposed approach can also be applied in many other applications.
   Objects:
-  - Other Packaging
+    - Other Packaging
   CV Tasks:
-  - Augmented Reality
-  - Keypoint Matching
-  - 3D Dimension Estimation
+    - Augmented Reality
+    - Keypoint Matching
+    - 3D Dimension Estimation
   Data Type:
-  - RGBD
-  - Real
+    - RGBD
+    - Real
   Approach Type:
-  - Classical Approach
+    - Classical Approach
   Application:
-  - Order Picking
+    - Order Picking
 - id: maettigUntersuchungEinsatzesAugmented2016
   authors: Benedikt Mättig, Isabel Lorimer, Jana Jost, Thomas Kirks
   year: 2016
-  title: Untersuchung des Einsatzes von Augmented Reality im Verpackungsprozess unter
+  title:
+    Untersuchung des Einsatzes von Augmented Reality im Verpackungsprozess unter
     Berücksichtigung spezifischer Anforderungen an die Informationsdarstellung sowie
     die ergonomische Einbindung des Menschen in den Prozess
   venue: null
   urls:
     paper: https://doi.org/10.2195/lj_proc_maettig_de_201610_01
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@misc{maettigUntersuchungEinsatzesAugmented2016,\n author = {Mättig, Benedikt\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@misc{maettigUntersuchungEinsatzesAugmented2016,\n author = {Mättig, Benedikt\
     \ and Lorimer, Isabel and Jost, Jana and Kirks, Thomas},\n date = {2016},\n doi\
     \ = {10.2195/lj_proc_maettig_de_201610_01},\n langid = {ngerman},\n publisher\
     \ = {{Wissenschaftliche Gesellschaft für Technische Logistik}},\n title = {Untersuchung\
@@ -1119,35 +1188,38 @@
     \ spezifischer Anforderungen an die Informationsdarstellung sowie die ergonomische\
     \ Einbindung des Menschen in den Prozess},\n url = {http://www.logistics-journal.de/proceedings/2016/fachkolloquium2016/4453},\n\
     \ urldate = {2019-11-22}\n}\n"
-  summary: study to analyze how the packaging process can be improved by using augmented
+  summary:
+    study to analyze how the packaging process can be improved by using augmented
     reality
   abstract: Volume 2016, Issue 10
   Objects: []
   CV Tasks:
-  - Augmented Reality
+    - Augmented Reality
   Data Type:
-  - Real
+    - Real
   Approach Type: []
   Application:
-  - Packaging for Shipment
+    - Packaging for Shipment
 - id: malyshevArtificialNeuralNetwork2021
   authors: M. I. Malyshev, S. A. Braginsky, E. Yu. Faddeeva, S. S. Gogolin
   year: 2021
   title: Artificial Neural Network Detection of Damaged Goods by Packaging State
-  venue: 2021 Intelligent Technologies and Electronic Devices in Vehicle and Road
+  venue:
+    2021 Intelligent Technologies and Electronic Devices in Vehicle and Road
     Transport Complex (TIRVED)
   urls:
     paper: https://doi.org/10/gpc9mx
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@inproceedings{malyshevArtificialNeuralNetwork2021,\n author = {Malyshev,\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@inproceedings{malyshevArtificialNeuralNetwork2021,\n author = {Malyshev,\
     \ M. I. and Braginsky, S. A. and Faddeeva, E. Yu. and Gogolin, S. S.},\n booktitle\
     \ = {2021 {{Intelligent Technologies}} and {{Electronic Devices}} in {{Vehicle}}\
     \ and {{Road Transport Complex}} ({{TIRVED}})},\n date = {2021-11},\n doi = {10/gpc9mx},\n\
@@ -1156,7 +1228,8 @@
     \ title = {Artificial {{Neural Network Detection}} of {{Damaged Goods}} by {{Packaging\
     \ State}}}\n}\n"
   summary: Concept for damaged parcel detection with CNNs
-  abstract: In order to solve the problem of detecting damaged goods before delivery
+  abstract:
+    In order to solve the problem of detecting damaged goods before delivery
     to the consignee, a method is proposed for identifying packaging in the cargo
     flow that has traces of deformation and other changes in appearance. As a result
     of the convergence of the skills and experience of specialists in the field of
@@ -1175,36 +1248,39 @@
     to dispense with the introduction of accessory operations into the process of
     cargo transportation.
   Objects:
-  - Parcel
+    - Parcel
   CV Tasks: []
   Data Type: []
   Approach Type: []
   Application:
-  - Damage and Tampering Detection
+    - Damage and Tampering Detection
 - id: mayershoferFullySyntheticTrainingIndustrial2020
   authors: Christopher Mayershofer, Tao Ge, Johannes Fottner
   year: 2020
   title: Towards Fully-Synthetic Training for Industrial Applications
-  venue: 10th International Conference on Logistics, Informatics and Service Sciences
+  venue:
+    10th International Conference on Logistics, Informatics and Service Sciences
     (LISS)
   urls:
-    paper: ''
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    paper: ""
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
+    name: ""
     comment: Synthetic training data and 1,460 manually annotated images
-    description: ''
-  bibtex: "@article{mayershoferFullySyntheticTrainingIndustrial2020,\n author = {Mayershofer,\
+    description: ""
+  bibtex:
+    "@article{mayershoferFullySyntheticTrainingIndustrial2020,\n author = {Mayershofer,\
     \ Christopher and Ge, Tao and Fottner, Johannes},\n date = {2020},\n journaltitle\
     \ = {10th International Conference on Logistics, Informatics and Service Sciences\
     \ (LISS)},\n langid = {english},\n pages = {8},\n title = {Towards {{Fully-Synthetic\
     \ Training}} for {{Industrial Applications}}}\n}\n"
   summary: Synthetic dataset generation for applications in logistics
-  abstract: 'This paper proposes a scalable approach for synthetic image generation
+  abstract:
+    "This paper proposes a scalable approach for synthetic image generation
     of industrial objects leveraging Blender for image rendering. In addition to common
     components in synthetic image generation research, three novel features are presented:
     First, we model relations between target objects and randomly apply those during
@@ -1216,77 +1292,83 @@
     generation approach we create an industry-centered dataset for evaluation purposes.
     Experiments show, that our approach enables fully synthetic training of object
     detectors for industrial use-cases. Moreover, an ablation study provides evidence
-    on the performance boost in object detection when using our novel features.'
+    on the performance boost in object detection when using our novel features."
   Objects:
-  - Small Load Carrier
+    - Small Load Carrier
   CV Tasks:
-  - Object Detection
-  - Instance Segmentation
+    - Object Detection
+    - Instance Segmentation
   Data Type:
-  - RGB
-  - Synthetic
+    - RGB
+    - Synthetic
   Approach Type:
-  - Deep Learning
+    - Deep Learning
   Application:
-  - Item Recognition
+    - Item Recognition
 - id: mayershoferLOCOLogisticsObjects2020
-  authors: Christopher Mayershofer, Dimitrij-Marian Holm, Benjamin Molter, Johannes
+  authors:
+    Christopher Mayershofer, Dimitrij-Marian Holm, Benjamin Molter, Johannes
     Fottner
   year: 2020
-  title: 'LOCO: Logistics Objects in Context'
-  venue: 2020 19th IEEE International Conference on Machine Learning and Applications
+  title: "LOCO: Logistics Objects in Context"
+  venue:
+    2020 19th IEEE International Conference on Machine Learning and Applications
     (ICMLA)
   urls:
     paper: https://doi.org/10/gn8st9
-    project: ''
-    arxiv: ''
-    code: ''
+    project: ""
+    arxiv: ""
+    code: ""
     dataset: https://github.com/tum-fml/loco
-    venue: ''
+    venue: ""
   dataset:
-    name: ''
+    name: ""
     comment: 39,101 images of which 5,593 are annotated
-    description: ''
-  bibtex: "@inproceedings{mayershoferLOCOLogisticsObjects2020,\n author = {Mayershofer,\
+    description: ""
+  bibtex:
+    "@inproceedings{mayershoferLOCOLogisticsObjects2020,\n author = {Mayershofer,\
     \ Christopher and Holm, Dimitrij-Marian and Molter, Benjamin and Fottner, Johannes},\n\
     \ booktitle = {2020 19th {{IEEE}} International Conference on Machine Learning\
     \ and Applications ({{ICMLA}})},\n date = {2020},\n doi = {10/gn8st9},\n pages\
     \ = {612--617},\n title = {{{LOCO}}: {{Logistics}} Objects in Context}\n}\n"
   summary: Dataset for object detection in logistics contexts
-  abstract: ''
+  abstract: ""
   Objects:
-  - Parcel
-  - Small Load Carrier
-  - Pallet
-  - Fork Lift
+    - Parcel
+    - Small Load Carrier
+    - Pallet
+    - Fork Lift
   CV Tasks:
-  - Object Detection
+    - Object Detection
   Data Type:
-  - RGB
-  - Real
+    - RGB
+    - Real
   Approach Type:
-  - Deep Learning
+    - Deep Learning
   Application:
-  - Item Recognition
+    - Item Recognition
 - id: mihalyiRobust3DObject2015
-  authors: Rãzvan-George Mihalyi, Kaustubh Pathak, Narunas Vaskevicius, Tobias Fromm,
+  authors:
+    Rãzvan-George Mihalyi, Kaustubh Pathak, Narunas Vaskevicius, Tobias Fromm,
     Andreas Birk
   year: 2015
-  title: Robust 3D Object Modeling with a Low-Cost RGBD-sensor and AR-markers for
+  title:
+    Robust 3D Object Modeling with a Low-Cost RGBD-sensor and AR-markers for
     Applications with Untrained End-Users
   venue: Robotics and Autonomous Systems
   urls:
     paper: https://doi.org/10.1016/j.robot.2015.01.005
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@article{mihalyiRobust3DObject2015,\n author = {Mihalyi, Rãzvan-George\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@article{mihalyiRobust3DObject2015,\n author = {Mihalyi, Rãzvan-George\
     \ and Pathak, Kaustubh and Vaskevicius, Narunas and Fromm, Tobias and Birk, Andreas},\n\
     \ date = {2015-04-01},\n doi = {10.1016/j.robot.2015.01.005},\n issn = {0921-8890},\n\
     \ journaltitle = {Robotics and Autonomous Systems},\n langid = {english},\n pages\
@@ -1295,7 +1377,8 @@
     \ Applications with Untrained End-Users},\n url = {http://www.sciencedirect.com/science/article/pii/S0921889015000135},\n\
     \ urldate = {2019-11-22},\n volume = {66}\n}\n"
   summary: 3D reconstruction with AR-markers and RGBD camera
-  abstract: 'An approach for generating textured 3D models of objects without the
+  abstract:
+    "An approach for generating textured 3D models of objects without the
     need for complex infrastructure such as turn-tables or high-end sensors on precisely
     controlled rails is presented. The method is inexpensive as it uses only a low-cost
     RGBD sensor, e.g., Microsoft Kinect or ASUS Xtion, and Augmented Reality (AR)
@@ -1314,35 +1397,37 @@
     human dolls, etc., is experimentally demonstrated. Good model-accuracy is shown
     for several ground-truth objects with simple geometries and known dimensions.
     Furthermore, it is shown that the models obtained using the uncertainty model
-    have fewer errors than the ones obtained without it.'
+    have fewer errors than the ones obtained without it."
   Objects:
-  - Arbitrary
+    - Arbitrary
   CV Tasks:
-  - 3D Shape Reconstruction
+    - 3D Shape Reconstruction
   Data Type:
-  - RGBD
+    - RGBD
   Approach Type:
-  - Fiducial Markers
-  - Classical Approach
+    - Fiducial Markers
+    - Classical Approach
   Application: []
 - id: mishraDevelopmentLowcostEmbedded2019
   authors: Vaishali Mishra, Harsh K Kapadia, Tanish H Zaveri, Bhanu Prasad Pinnamaneni
   year: 2018
-  title: Development of Low-Cost Embedded Vision System with a Case Study on 1D Barcode
+  title:
+    Development of Low-Cost Embedded Vision System with a Case Study on 1D Barcode
     Detection
   venue: Information and Communication Technology for Intelligent Systems (ICTIS)
   urls:
     paper: https://link.springer.com/chapter/10.1007/978-981-13-1742-2_50
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@inproceedings{mishra2019development,\n    title        = {Development\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@inproceedings{mishra2019development,\n    title        = {Development\
     \ of Low-Cost Embedded Vision System with a Case Study on 1D Barcode Detection},\n\
     \    author       = {Mishra, Vaishali and Kapadia, Harsh K and Zaveri, Tanish\
     \ H and Pinnamaneni, Bhanu Prasad},\n    year         = 2019,\n    booktitle \
@@ -1350,7 +1435,8 @@
     \ of ICTIS 2018, Volume 1},\n    pages        = {505--513},\n    organization\
     \ = {Springer}\n}\n"
   summary: low cost embedded vision system for the detection of 1D barcodes
-  abstract: In the trend of miniaturization and smart systems/devices, many industries
+  abstract:
+    In the trend of miniaturization and smart systems/devices, many industries
     are still working with comparatively large and costly computer-based system as
     compared to embedded systems. The work discussed in the paper focuses on development
     on a small, low-cost, less power-consuming embedded vision-based one-dimensional
@@ -1363,34 +1449,38 @@
     and computation time comparison over different hardware platforms are discussed
     in the results.
   Objects:
-  - Label
+    - Label
   CV Tasks: []
   Data Type:
-  - RGB
+    - RGB
   Approach Type:
-  - Classical Approach
+    - Classical Approach
   Application:
-  - Label Recognition
+    - Label Recognition
 - id: mohamedDetectionLocalisationTracking2020
-  authors: Ihab S. Mohamed, Alessio Capitanelli, Fulvio Mastrogiovanni, Stefano Rovetta,
+  authors:
+    Ihab S. Mohamed, Alessio Capitanelli, Fulvio Mastrogiovanni, Stefano Rovetta,
     Renato Zaccaria
   year: 2020
-  title: Detection, Localisation and Tracking of Pallets Using Machine Learning Techniques
+  title:
+    Detection, Localisation and Tracking of Pallets Using Machine Learning Techniques
     and 2D Range Data
   venue: Neural Computing and Applications
   urls:
     paper: https://doi.org/10.1007/s00521-019-04352-0
-    project: ''
-    arxiv: ''
-    code: ''
+    project: ""
+    arxiv: ""
+    code: ""
     dataset: https://github.com/EmaroLab/PDT/
-    venue: ''
+    venue: ""
   dataset:
     name: PDT Pallet Detection
-    comment: Real-world data set containing 340 labeled top-view images, which is
+    comment:
+      Real-world data set containing 340 labeled top-view images, which is
       augmented by rotation and displacement to 1020 images. For details see https://www.sciencedirect.com/science/article/pii/S235234091930188X
-    description: ''
-  bibtex: "@article{mohamedDetectionLocalisationTracking2020,\n author = {Mohamed,\
+    description: ""
+  bibtex:
+    "@article{mohamedDetectionLocalisationTracking2020,\n author = {Mohamed,\
     \ Ihab S. and Capitanelli, Alessio and Mastrogiovanni, Fulvio and Rovetta, Stefano\
     \ and Zaccaria, Renato},\n date = {2020-07-01},\n doi = {10.1007/s00521-019-04352-0},\n\
     \ issn = {1433-3058},\n journaltitle = {Neural Computing and Applications},\n\
@@ -1400,7 +1490,8 @@
     \ {https://doi.org/10.1007/s00521-019-04352-0},\n urldate = {2022-05-03},\n volume\
     \ = {32}\n}\n"
   summary: pallet recognition and tracking using only an onboard laser rangefinder
-  abstract: 'The problem of autonomous transportation in industrial scenarios is receiving
+  abstract:
+    'The problem of autonomous transportation in industrial scenarios is receiving
     a renewed interest due to the way it can revolutionise internal logistics, especially
     in unstructured environments. This paper presents a novel architecture allowing
     a robot to detect, localise, and track (possibly multiple) pallets using machine
@@ -1423,34 +1514,37 @@
     is capable of identifying, localising and tracking pallets with a high success
     rate while being robust to false positives.'
   Objects:
-  - Pallet
+    - Pallet
   CV Tasks: []
   Data Type:
-  - Pointcloud
-  - Real
+    - Pointcloud
+    - Real
   Approach Type:
-  - Deep Learning
+    - Deep Learning
   Application:
-  - Pallet Handling
+    - Pallet Handling
 - id: molterRealtimePalletLocalization2018
   authors: B. Molter, J. Fottner
   year: 2018
-  title: Real-Time Pallet Localization with 3D Camera Technology for Forklifts in
+  title:
+    Real-Time Pallet Localization with 3D Camera Technology for Forklifts in
     Logistic Environments
-  venue: 2018 IEEE International Conference on Service Operations and Logistics, and
+  venue:
+    2018 IEEE International Conference on Service Operations and Logistics, and
     Informatics (SOLI)
   urls:
     paper: https://doi.org/10/ghpm7r
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@inproceedings{molterRealtimePalletLocalization2018,\n author = {Molter,\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@inproceedings{molterRealtimePalletLocalization2018,\n author = {Molter,\
     \ B. and Fottner, J.},\n booktitle = {2018 {{IEEE International Conference}} on\
     \ {{Service Operations}} and {{Logistics}}, and {{Informatics}} ({{SOLI}})},\n\
     \ date = {2018-07},\n doi = {10/ghpm7r},\n eventtitle = {2018 {{IEEE International\
@@ -1459,7 +1553,8 @@
     \ with {{3D Camera Technology}} for {{Forklifts}} in {{Logistic Environments}}}\n\
     }\n"
   summary: pallet detection and localization using a time-of-flight camera
-  abstract: This paper presents a novel approach for detection and localization of
+  abstract:
+    This paper presents a novel approach for detection and localization of
     standardized euro pallets, which are orientated up to 90° in relation to the sensor
     plane. There is no a priori information about the pallets pose needed. We use
     a time-of-flight camera. Our algorithm is based on finding surfaces in the point
@@ -1472,41 +1567,44 @@
     systems, like advanced driver assistance systems. The results show that the localization
     of pallets is possible in the scenario considered.
   Objects:
-  - Pallet
+    - Pallet
   CV Tasks: []
   Data Type:
-  - RGBD
-  - Real
+    - RGBD
+    - Real
   Approach Type:
-  - Classical Approach
-  - Template Matching
+    - Classical Approach
+    - Template Matching
   Application:
-  - Pallet Handling
+    - Pallet Handling
 - id: molterSemiAutomaticPalletPickup2019
   authors: Benjamin Molter, Johannes Fottner
   year: 2019
-  title: Semi-Automatic Pallet Pick-up as an Advanced Driver Assistance System for
+  title:
+    Semi-Automatic Pallet Pick-up as an Advanced Driver Assistance System for
     Forklifts
   venue: 2019 IEEE Intelligent Transportation Systems Conference (ITSC)
   urls:
     paper: https://doi.org/10.1109/ITSC.2019.8917189
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@inproceedings{molterSemiAutomaticPalletPickup2019,\n author = {Molter,\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@inproceedings{molterSemiAutomaticPalletPickup2019,\n author = {Molter,\
     \ Benjamin and Fottner, Johannes},\n booktitle = {2019 {{IEEE Intelligent Transportation\
     \ Systems Conference}} ({{ITSC}})},\n date = {2019-10},\n doi = {10.1109/ITSC.2019.8917189},\n\
     \ eventtitle = {2019 {{IEEE Intelligent Transportation Systems Conference}} ({{ITSC}})},\n\
     \ pages = {4464--4469},\n title = {Semi-{{Automatic Pallet Pick-up}} as an {{Advanced\
     \ Driver Assistance System}} for {{Forklifts}}}\n}\n"
   summary: Driver assistance system for a forklift truck
-  abstract: This paper presents a novel advanced driver assistance system for human-operated
+  abstract:
+    This paper presents a novel advanced driver assistance system for human-operated
     forklifts in logistical scenarios. The system helps the operator to pick up wooden
     pallets by performing a collision-free insertion of the forks into the pallet.
     For this purpose, the assistance system takes over the steering function of the
@@ -1519,16 +1617,16 @@
     Finally, a technical method is described to realize the steering intervention
     on an existing forklift.
   Objects:
-  - Pallet
+    - Pallet
   CV Tasks: []
   Data Type:
-  - RGBD
-  - Real
+    - RGBD
+    - Real
   Approach Type:
-  - Classical Approach
-  - Template Matching
+    - Classical Approach
+    - Template Matching
   Application:
-  - Pallet Handling
+    - Pallet Handling
 - id: muellerPalletDetectionLocalisation2024
   authors: Henri Mueller, Yechan Kim, Trevor Gee, Mahla Nejati
   year: 2025
@@ -1569,48 +1667,52 @@
     of 8.2° were achieved for pallets within a 5-meter range, with the pallet positioned
     head-on.
   Objects:
-  - Pallet
-  - Fork Lift
-  - AGV
+    - Pallet
+    - Fork Lift
+    - AGV
   CV Tasks:
-  - Object Detection
-  - Object Tracking
-  - Keypoint Matching
-  - 3D Positioning
+    - Object Detection
+    - Object Tracking
+    - Keypoint Matching
+    - 3D Positioning
   Data Type:
-  - RGB
+    - RGB
   Approach Type:
-  - Deep Learning
+    - Deep Learning
   Application:
-  - Pallet Handling
-  - AGVs
-  - Loading and Unloading
+    - Pallet Handling
+    - AGVs
+    - Loading and Unloading
 - id: naumannLiteratureReviewComputer2023
   authors: Alexander Naumann, Felix Hertlein, Laura Dörr, Steffen Thoma, Kai Furmans
   year: 2023
-  title: 'Literature Review: Computer Vision Applications in Transportation Logistics
-    and Warehousing'
+  title:
+    "Literature Review: Computer Vision Applications in Transportation Logistics
+    and Warehousing"
   venue: arxiv
   urls:
-    paper: ''
+    paper: ""
     project: https://a-nau.github.io/cv-in-logistics
     arxiv: https://doi.org/10.48550/arXiv.2304.06009
     code: https://github.com/a-nau/cv-in-logistics
-    dataset: ''
-    venue: ''
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@online{naumannLiteratureReviewComputer2023,\n    title        = {Literature\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@online{naumannLiteratureReviewComputer2023,\n    title        = {Literature\
     \ {{Review}}: {{Computer Vision Applications}} in {{Transportation Logistics}}\
     \ and {{Warehousing}}},\n    author       = {Naumann, Alexander and Hertlein,\
     \ Felix and Dörr, Laura and Thoma, Steffen and Furmans, Kai},\n    url       \
     \   = {http://arxiv.org/abs/2304.06009},\n    eprinttype   = {arxiv},\n    pubstate\
     \     = {preprint}\n}\n"
-  summary: Literature review on applications of computer vision in transportation
+  summary:
+    Literature review on applications of computer vision in transportation
     logistics and warehousing
-  abstract: 'Computer vision applications in transportation logistics and warehousing
+  abstract:
+    "Computer vision applications in transportation logistics and warehousing
     have a huge potential for process automation. We present a structured literature
     review on research in the field to help leverage this potential. All literature
     is categorized w.r.t. the application, i.e. the task it tackles and w.r.t. the
@@ -1622,23 +1724,24 @@
     that are suitable for application in logistics. Finally, we present an overview
     of existing datasets and industrial solutions. We conclude that while already
     many research areas have been investigated, there is still huge potential for
-    future research. The results of our analysis are also available online at https://a-nau.github.io/cv-in-logistics.'
+    future research. The results of our analysis are also available online at https://a-nau.github.io/cv-in-logistics."
   Objects:
-  - Arbitrary
-  - Other
-  - Multiple
+    - Arbitrary
+    - Other
+    - Multiple
   CV Tasks: []
   Data Type:
-  - Synthetic
-  - Real
+    - Synthetic
+    - Real
   Approach Type: []
   Application:
-  - Literature Review
+    - Literature Review
 - id: naumannParcel3DShapeReconstruction2023
   authors: Alexander Naumann, Felix Hertlein, Laura Dörr, Kai Furmans
   year: 2023
-  title: 'Parcel3D: Shape Reconstruction from Single RGB Images for Applications in
-    Transportation Logistics'
+  title:
+    "Parcel3D: Shape Reconstruction from Single RGB Images for Applications in
+    Transportation Logistics"
   venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops
   urls:
     paper: https://openaccess.thecvf.com/content/CVPR2023W/VISION/html/Naumann_Parcel3D_Shape_Reconstruction_From_Single_RGB_Images_for_Applications_in_CVPRW_2023_paper.html
@@ -1649,20 +1752,24 @@
     venue: https://vision-based-industrial-inspection.github.io/cvpr-2023/
   dataset:
     name: Parcel3D
-    comment: ''
-    description: Synthetic dataset of intact and damaged parcel images (>13,000) with
+    comment: ""
+    description:
+      Synthetic dataset of intact and damaged parcel images (>13,000) with
       full 3D annotations that is suitable for applications in transportation logistics
       and warehousing
-  bibtex: "@inproceedings{naumannParcel3DShapeReconstruction2023,\n      author  \
+  bibtex:
+    "@inproceedings{naumannParcel3DShapeReconstruction2023,\n      author  \
     \  = {Naumann, Alexander and Hertlein, Felix and D\\\"orr, Laura and Furmans,\
     \ Kai},\n      title     = {Parcel3D: Shape Reconstruction From Single RGB Images\
     \ for Applications in Transportation Logistics},\n      booktitle = {Proceedings\
     \ of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)\
     \ Workshops},\n      month     = {June},\n      year      = {2023},\n      pages\
     \     = {4402-4412}\n}\n"
-  summary: 3D shape reconstruction of potentially damaged parcels for damage and tampering
+  summary:
+    3D shape reconstruction of potentially damaged parcels for damage and tampering
     detection in transportation logistics and warehousing
-  abstract: We focus on enabling damage and tampering detection in logistics and tackle
+  abstract:
+    We focus on enabling damage and tampering detection in logistics and tackle
     the problem of 3D shape reconstruction of potentially damaged parcels. As input
     we utilize single RGB images, which corresponds to use-cases where only simple
     handheld devices are available, e.g. for postmen during delivery or clients on
@@ -1680,20 +1787,20 @@
     by 3D mesh comparison and tampering detection by comparing viewpoint invariant
     parcel side surface representations. Dataset and code are available at https://a-nau.github.io/parcel3d.
   Objects:
-  - Parcel
+    - Parcel
   CV Tasks:
-  - Object Detection
-  - 3D Object Detection
-  - 3D Shape Reconstruction
+    - Object Detection
+    - 3D Object Detection
+    - 3D Shape Reconstruction
   Data Type:
-  - RGB
-  - Real
-  - Pointcloud
+    - RGB
+    - Real
+    - Pointcloud
   Approach Type:
-  - Deep Learning
+    - Deep Learning
   Application:
-  - Damage and Tampering Detection
-  - Volume Estimation
+    - Damage and Tampering Detection
+    - Volume Estimation
 - id: naumannRefinedPlaneSegmentation2020
   authors: Alexander Naumann, Laura Dörr, Niels Ole Salscheider, Kai Furmans
   year: 2020
@@ -1701,23 +1808,25 @@
   venue: International Conference On Machine Learning And Applications
   urls:
     paper: https://ieeexplore.ieee.org/document/9356356
-    project: ''
+    project: ""
     arxiv: http://arxiv.org/abs/2003.12870
     code: https://github.com/a-nau/Plane-Segmentation-Refinement
     dataset: https://url.fzi.de/refined_planeseg
     venue: https://icmla-conference.org/icmla20/
   dataset:
-    name: ''
+    name: ""
     comment: ~40 images
-    description: ''
-  bibtex: "@inproceedings{naumannRefinedPlaneSegmentation2020,\n    title        =\
+    description: ""
+  bibtex:
+    "@inproceedings{naumannRefinedPlaneSegmentation2020,\n    title        =\
     \ {Refined Plane Segmentation for Cuboid-Shaped Objects by Leveraging Edge Detection},\n\
     \    author       = {Naumann, Alexander and Dörr, Laura and Salscheider, Niels\
     \ Ole and Furmans, Kai},\n    booktitle    = {{{IEEE Conference}} on {{Machine\
     \ Learning}} and Applications ({{ICMLA}})},\n    location     = {{Miami, USA}},\n\
     \    date         = {2020-12}\n}\n"
   summary: Parcel side surface segmentation by exploiting plane detection
-  abstract: Recent advances in the area of plane segmentation from single RGB images
+  abstract:
+    Recent advances in the area of plane segmentation from single RGB images
     show strong accuracy improvements and now allow a reliable segmentation of indoor
     scenes into planes. Nonetheless, fine-grained details of these segmentation masks
     are still lacking accuracy, thus restricting the usability of such techniques
@@ -1732,24 +1841,26 @@
     the state-of-the-art. The influence of the prior segmentation and the edge detection
     is investigated and finally, areas for future research are proposed.
   Objects:
-  - Parcel
+    - Parcel
   CV Tasks:
-  - Instance Segmentation
-  - Edge Detection
-  - Plane Segmentation
+    - Instance Segmentation
+    - Edge Detection
+    - Plane Segmentation
   Data Type:
-  - RGB
-  - Real
+    - RGB
+    - Real
   Approach Type:
-  - Deep Learning
+    - Deep Learning
   Application:
-  - Item Recognition
+    - Item Recognition
 - id: naumannScrapeCutPasteLearn2022
   authors: Alexander Naumann, Felix Hertlein, Benchun Zhou, Laura Dorr, Kai Furmans
   year: 2022
-  title: 'Scrape, Cut, Paste and Learn: Automated Dataset Generation Applied to Parcel
-    Logistics'
-  venue: 2022 21st IEEE International Conference on Machine Learning and Applications
+  title:
+    "Scrape, Cut, Paste and Learn: Automated Dataset Generation Applied to Parcel
+    Logistics"
+  venue:
+    2022 21st IEEE International Conference on Machine Learning and Applications
     (ICMLA)
   urls:
     paper: https://doi.org/10.1109/ICMLA55696.2022.00171
@@ -1761,16 +1872,19 @@
   dataset:
     name: Parcel2D Real
     comment: Full 3D annotations and keypoint positions have been added to the dataset.
-    description: Real-world dataset of ~400 images of cuboid-shaped parcels with full
+    description:
+      Real-world dataset of ~400 images of cuboid-shaped parcels with full
       2D and 3D annotations in the COCO format.
-  bibtex: "@inproceedings{naumannScrapeCutPasteLearn2022,\n    title        = {Scrape,\
+  bibtex:
+    "@inproceedings{naumannScrapeCutPasteLearn2022,\n    title        = {Scrape,\
     \ Cut, Paste and Learn: Automated Dataset Generation Applied to Parcel Logistics},\n\
     \    author       = {Naumann, Alexander and Hertlein, Felix and Zhou, Benchun\
     \ and Dörr, Laura and Furmans, Kai},\n    booktitle    = {{{IEEE Conference}}\
     \ on {{Machine Learning}} and Applications ({{ICMLA}})},\n    date         = 2022\n\
     }\n"
   summary: automated instance segmentation dataset generation applied to parcel logistics
-  abstract: 'State-of-the-art approaches in computer vision heavily rely on sufficiently
+  abstract:
+    "State-of-the-art approaches in computer vision heavily rely on sufficiently
     large training datasets. For real-world applications, obtaining such a dataset
     is usually a tedious task. In this paper, we present a fully automated pipeline
     to generate a synthetic dataset for instance segmentation in four steps. In contrast
@@ -1793,26 +1907,28 @@
     - is not crucial and a broader category definition can help to bridge the domain
     gap, (3) the usage of blending methods is beneficial compared to simple copy-and-paste.
     We made our full code for scraping, image composition and training publicly available
-    at https://anau.github.io/parcel2d.'
+    at https://anau.github.io/parcel2d."
   Objects:
-  - Parcel
-  - Arbitrary
+    - Parcel
+    - Arbitrary
   CV Tasks:
-  - Object Detection
-  - Instance Segmentation
+    - Object Detection
+    - Instance Segmentation
   Data Type:
-  - RGB
-  - Synthetic
+    - RGB
+    - Synthetic
   Approach Type:
-  - Deep Learning
+    - Deep Learning
   Application:
-  - Item Recognition
+    - Item Recognition
 - id: naumannTAMPAR2024
   authors: Alexander Naumann, Felix Hertlein, Laura Dörr, Kai Furmans
   year: 2024
-  title: 'TAMPAR: Visual Tampering Detection for Parcel Logistics in Postal Supply
-    Chains'
-  venue: Proceedings of the IEEE/CVF Winter Conference on Applications of Computer
+  title:
+    "TAMPAR: Visual Tampering Detection for Parcel Logistics in Postal Supply
+    Chains"
+  venue:
+    Proceedings of the IEEE/CVF Winter Conference on Applications of Computer
     Vision
   urls:
     paper: null
@@ -1824,17 +1940,20 @@
   dataset:
     name: TAMPAR
     comment: null
-    description: "A novel real-world dataset of parcels\n - with >900 annotated real-world\
+    description:
+      "A novel real-world dataset of parcels\n - with >900 annotated real-world\
       \ images with >2,700 visible parcel side surfaces,\n - 6 different tampering\
       \ types, and\n - 6 different distortion strengths\n"
-  bibtex: "@inproceedings{naumannTAMPAR2024,\n    author    = {Naumann, Alexander\
+  bibtex:
+    "@inproceedings{naumannTAMPAR2024,\n    author    = {Naumann, Alexander\
     \ and Hertlein, Felix and D\\\"orr, Laura and Furmans, Kai},\n    title     =\
     \ {TAMPAR: Visual Tampering Detection for Parcel Logistics in Postal Supply Chains},\n\
     \    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications\
     \ of Computer Vision},\n    month     = {January},\n    year      = {2024},\n\
     \    pages     = {TBD},\n    note      = {to appear in}\n}\n"
   summary: Visual tampering detection (i.e. appearance change detection) for parcels
-  abstract: Due to the steadily rising amount of valuable goods in supply chains,
+  abstract:
+    Due to the steadily rising amount of valuable goods in supply chains,
     tampering detection for parcels is becoming increasingly important. In this work,
     we focus on the use-case last-mile delivery, where only a single RGB image is
     taken and compared against a reference from an existing database to detect potential
@@ -1853,48 +1972,52 @@
     images. Furthermore, a sensitivity analysis for tampering types, lens distortion
     and viewing angles is presented. Code and dataset are available at https://a-nau.github.io/tampar
   Objects:
-  - Parcel
-  - Label
+    - Parcel
+    - Label
   CV Tasks:
-  - Object Detection
-  - Instance Segmentation
-  - Keypoint Matching
+    - Object Detection
+    - Instance Segmentation
+    - Keypoint Matching
   Data Type:
-  - RGB
-  - Real
+    - RGB
+    - Real
   Approach Type:
-  - Classical Approach
-  - Deep Learning
+    - Classical Approach
+    - Deep Learning
   Application:
-  - Item Recognition
-  - Damage and Tampering Detection
+    - Item Recognition
+    - Damage and Tampering Detection
 - id: nocetiMulticameraSystemDamage2018
   authors: Nicoletta Noceti, Luca Zini, Francesca Odone
   year: 2018
-  title: A Multi-Camera System for Damage and Tampering Detection in a Postal Security
+  title:
+    A Multi-Camera System for Damage and Tampering Detection in a Postal Security
     Framework
   venue: EURASIP Journal on Image and Video Processing
   urls:
     paper: https://doi.org/10.1186/s13640-017-0242-x
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@article{nocetiMulticameraSystemDamage2018,\n author = {Noceti, Nicoletta\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@article{nocetiMulticameraSystemDamage2018,\n author = {Noceti, Nicoletta\
     \ and Zini, Luca and Odone, Francesca},\n date = {2018-02-09},\n doi = {10.1186/s13640-017-0242-x},\n\
     \ issn = {1687-5281},\n journaltitle = {EURASIP Journal on Image and Video Processing},\n\
     \ number = {1},\n pages = {11},\n shortjournal = {EURASIP Journal on Image and\
     \ Video Processing},\n title = {A Multi-Camera System for Damage and Tampering\
     \ Detection in a Postal Security Framework},\n url = {https://doi.org/10.1186/s13640-017-0242-x},\n\
     \ urldate = {2019-11-22},\n volume = {2018}\n}\n"
-  summary: damage and tampering detection in a postal security framework by extracting
+  summary:
+    damage and tampering detection in a postal security framework by extracting
     3D shape and appearance information from multiple cameras
-  abstract: In this paper, we describe a multi-camera system for parcel inspection
+  abstract:
+    In this paper, we describe a multi-camera system for parcel inspection
     which detects signs of damages and cues of tampering. The proposed system has
     been developed within the EU project SAFEPOST as a part of a multi-sensor scanning
     modality, to enhance safety and security of parcels travelling on the European
@@ -1905,74 +2028,80 @@
     when required by the system. We provide an experimental evidence of the effectiveness
     of the method, both in laboratory and field tests.
   Objects:
-  - Parcel
+    - Parcel
   CV Tasks:
-  - Object Re-Identification
-  - 3D Dimension Estimation
+    - Object Re-Identification
+    - 3D Dimension Estimation
   Data Type:
-  - RGB
-  - Real
+    - RGB
+    - Real
   Approach Type:
-  - Classical Approach
+    - Classical Approach
   Application:
-  - Damage and Tampering Detection
+    - Damage and Tampering Detection
 - id: ozgurComparingSensorbasedCamerabased2016
   authors: Çagdas Özgür, Cyril Alias, Bernd Noche
   year: 2016
-  title: Comparing Sensor-Based and Camera-Based Approaches to Recognizing the Occupancy
+  title:
+    Comparing Sensor-Based and Camera-Based Approaches to Recognizing the Occupancy
     Status of the Load Handling Device of Forklift Trucks
   venue: null
   urls:
     paper: https://doi.org/10.2195/lj_proc_oezguer_en_201605_01
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@misc{ozgurComparingSensorbasedCamerabased2016,\n author = {Özgür, Çagdas\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@misc{ozgurComparingSensorbasedCamerabased2016,\n author = {Özgür, Çagdas\
     \ and Alias, Cyril and Noche, Bernd},\n date = {2016},\n doi = {10.2195/lj_proc_oezguer_en_201605_01},\n\
     \ langid = {english},\n publisher = {{Wissenschaftliche Gesellschaft für Technische\
     \ Logistik}},\n title = {Comparing Sensor-Based and Camera-Based Approaches to\
     \ Recognizing the Occupancy Status of the Load Handling Device of Forklift Trucks},\n\
     \ url = {http://www.logistics-journal.de/proceedings/2016/fachkolloquium2015/4364},\n\
     \ urldate = {2019-11-22}\n}\n"
-  summary: recognize the occupancy status of the load handling device of forklift
+  summary:
+    recognize the occupancy status of the load handling device of forklift
     trucks
   abstract: Volume 2016, Issue 05
   Objects:
-  - Fork Lift
+    - Fork Lift
   CV Tasks: []
   Data Type:
-  - RGB
-  - Real
+    - RGB
+    - Real
   Approach Type:
-  - Fiducial Markers
-  - Classical Approach
+    - Fiducial Markers
+    - Classical Approach
   Application:
-  - Verify Occupancy
+    - Verify Occupancy
 - id: prasseNewApproachesSingularization2015
-  authors: C. Prasse, J. Stenzel, A. Böckenkamp, B. Rudak, K. Lorenz, F. Weichert,
+  authors:
+    C. Prasse, J. Stenzel, A. Böckenkamp, B. Rudak, K. Lorenz, F. Weichert,
     H. Müller, M. ten Hompel
   year: 2015
-  title: New Approaches for Singularization in Logistic Applications Using Low Cost
+  title:
+    New Approaches for Singularization in Logistic Applications Using Low Cost
     3D Sensors
-  venue: 'Sensing Technology: Current Status and Future Trends IV'
+  venue: "Sensing Technology: Current Status and Future Trends IV"
   urls:
     paper: https://doi.org/10.1007/978-3-319-12898-6_10
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
+    name: ""
     comment: 9 different package dimension and synthetic data
-    description: ''
-  bibtex: "@incollection{prasseNewApproachesSingularization2015,\n author = {Prasse,\
+    description: ""
+  bibtex:
+    "@incollection{prasseNewApproachesSingularization2015,\n author = {Prasse,\
     \ C. and Stenzel, J. and Böckenkamp, A. and Rudak, B. and Lorenz, K. and Weichert,\
     \ F. and Müller, H. and ten Hompel, M.},\n booktitle = {Sensing {{Technology}}:\
     \ {{Current Status}} and {{Future Trends IV}}},\n date = {2015},\n doi = {10.1007/978-3-319-12898-6_10},\n\
@@ -1983,8 +2112,9 @@
     \ and {{Instrumentation}}},\n title = {New {{Approaches}} for {{Singularization}}\
     \ in {{Logistic Applications Using Low Cost 3D Sensors}}},\n url = {https://doi.org/10.1007/978-3-319-12898-6_10},\n\
     \ urldate = {2019-11-22}\n}\n"
-  summary: 'Depalletization using a robot arm and low-cost 3D sensors '
-  abstract: In this chapter, novel approaches for the detection of logistical objects
+  summary: "Depalletization using a robot arm and low-cost 3D sensors "
+  abstract:
+    In this chapter, novel approaches for the detection of logistical objects
     (loading units) in the field of material flow applications are comparative presented,
     focusing on solutions using low cost 3D sensors. These approaches realize substantial
     changes in comparison to traditional system design of logistic processes. Complex
@@ -2010,68 +2140,72 @@
     facility logistic processes. Within the evaluation the critical requirements to
     reach this aim are discussed on the application layer.
   Objects:
-  - Pallet
-  - Parcel
+    - Pallet
+    - Parcel
   CV Tasks: []
   Data Type:
-  - RGBD
-  - Synthetic
-  - Real
+    - RGBD
+    - Synthetic
+    - Real
   Approach Type:
-  - Template Matching
-  - Classical Approach
+    - Template Matching
+    - Classical Approach
   Application:
-  - Depalletization
+    - Depalletization
 - id: reifEntwicklungUndEvaluierung2009
   authors: Rupert Reif
   year: 2009
   title: Entwicklung und Evaluierung eines Augmented Reality unterstützten Kommissioniersystems
   venue: null
   urls:
-    paper: ''
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    paper: ""
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@book{reifEntwicklungUndEvaluierung2009,\n author = {Reif, Rupert},\n date\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@book{reifEntwicklungUndEvaluierung2009,\n author = {Reif, Rupert},\n date\
     \ = {2009},\n isbn = {978-3-941702-04-2},\n langid = {ngerman},\n location = {{Garching\
     \ b. München}},\n pagetotal = {256},\n publisher = {{Lehrstuhl für Fördertechnik\
     \ Materialfluß Logistik (fml), Techn. Univ. München}},\n title = {Entwicklung\
     \ und Evaluierung eines Augmented Reality unterstützten Kommissioniersystems}\n\
     }\n"
   summary: Analysis of the suitability of augmented reality for order picking tasks
-  abstract: ''
+  abstract: ""
   Objects: []
   CV Tasks:
-  - Augmented Reality
+    - Augmented Reality
   Data Type: []
   Approach Type: []
   Application:
-  - Order Picking
+    - Order Picking
 - id: rutinowskiDeepLearningBased2022
-  authors: Jérôme Rutinowski, Christian Pionzewski, Tim Chilla, Christopher Reining,
+  authors:
+    Jérôme Rutinowski, Christian Pionzewski, Tim Chilla, Christopher Reining,
     Michael Ten Hompel
   year: 2022
   title: Deep Learning Based Re-Identification of Wooden Euro-pallets
-  venue: 2022 21st IEEE International Conference on Machine Learning and Applications
+  venue:
+    2022 21st IEEE International Conference on Machine Learning and Applications
     (ICMLA)
   urls:
     paper: https://doi.org/10.1109/ICMLA55696.2022.00023
-    project: ''
-    arxiv: ''
-    code: ''
+    project: ""
+    arxiv: ""
+    code: ""
     dataset: https://doi.org/10.5281/zenodo.6358607
-    venue: ''
+    venue: ""
   dataset:
-    name: ''
+    name: ""
     comment: 32,965 pallets blocks with 4 images each
-    description: ''
-  bibtex: "@inproceedings{rutinowskiDeepLearningBased2022,\n author = {Rutinowski,\
+    description: ""
+  bibtex:
+    "@inproceedings{rutinowskiDeepLearningBased2022,\n author = {Rutinowski,\
     \ Jérôme and Pionzewski, Christian and Chilla, Tim and Reining, Christopher and\
     \ ten Hompel, Michael},\n booktitle = {2022 21st {{IEEE International Conference}}\
     \ on {{Machine Learning}} and {{Applications}} ({{ICMLA}})},\n date = {2022-12},\n\
@@ -2080,7 +2214,8 @@
     \ = {113--117},\n title = {Deep {{Learning Based Re-Identification}} of {{Wooden\
     \ Euro-pallets}}}\n}\n"
   summary: re-identification for chipwood pallet blocks of Euro pallets
-  abstract: This work proposes a novel, open-source image dataset and an approach
+  abstract:
+    This work proposes a novel, open-source image dataset and an approach
     for the re-identification of wooden Euro-pallets in the context of warehousing
     logistics. The dataset contains images of 32,965 pallet blocks, of which four
     pictures are taken respectively, making for a dataset of 131,860 labeled (individual
@@ -2095,35 +2230,38 @@
     The results of this work therefore suggest a high degree of reliability of the
     proposed approach, even when deployed in an industrial environment.
   Objects:
-  - Pallet
+    - Pallet
   CV Tasks:
-  - Object Re-Identification
+    - Object Re-Identification
   Data Type:
-  - RGB
-  - Real
+    - RGB
+    - Real
   Approach Type:
-  - Deep Learning
+    - Deep Learning
   Application:
-  - Tracking and Tracing
+    - Tracking and Tracing
 - id: rutinowskiReIdentificationWarehousingEntities2021
-  authors: Jérôme Rutinowski, Christian Pionzewski, Tim Chilla, Christopher Reining,
+  authors:
+    Jérôme Rutinowski, Christian Pionzewski, Tim Chilla, Christopher Reining,
     Michael ten Hompel
   year: 2021
   title: Towards Re-Identification for Warehousing Entities - A Work-in-Progress Study
-  venue: 2021 26th IEEE International Conference on Emerging Technologies and Factory
+  venue:
+    2021 26th IEEE International Conference on Emerging Technologies and Factory
     Automation (ETFA )
   urls:
     paper: https://doi.org/10.1109/ETFA45728.2021.9613250
-    project: ''
-    arxiv: ''
-    code: ''
+    project: ""
+    arxiv: ""
+    code: ""
     dataset: https://doi.org/10.5281/zenodo.6353714
-    venue: ''
+    venue: ""
   dataset:
-    name: ''
+    name: ""
     comment: 5020 images of 502 pallet blocks of Euro pallets
-    description: ''
-  bibtex: "@inproceedings{rutinowskiReIdentificationWarehousingEntities2021,\n author\
+    description: ""
+  bibtex:
+    "@inproceedings{rutinowskiReIdentificationWarehousingEntities2021,\n author\
     \ = {Rutinowski, Jérôme and Pionzewski, Christian and Chilla, Tim and Reining,\
     \ Christopher and ten Hompel, Michael},\n booktitle = {2021 26th {{IEEE International\
     \ Conference}} on {{Emerging Technologies}} and {{Factory Automation}} ({{ETFA}}\
@@ -2133,7 +2271,8 @@
     \ {{Re-Identification}} for {{Warehousing Entities}} - {{A Work-in-Progress Study}}}\n\
     }\n"
   summary: re-identification for chipwood pallet blocks of Euro pallets
-  abstract: This paper contributes a new dataset, namely for the re-identification
+  abstract:
+    This paper contributes a new dataset, namely for the re-identification
     of Euro-pallet pallet-blocks, called pallet-block-502. Based on a logistics use
     case, three re-identification algorithms are benchmarked on this dataset. The
     dataset constitutes 502 pallet-blocks, of which ten pictures each are taken, expanding
@@ -2142,40 +2281,43 @@
     Convolutional Baseline (PCB) network with ResNet50 as its backbone network, achieving
     an mAP of 98\%.
   Objects:
-  - Pallet
+    - Pallet
   CV Tasks:
-  - Object Re-Identification
+    - Object Re-Identification
   Data Type:
-  - RGB
-  - Real
+    - RGB
+    - Real
   Approach Type:
-  - Deep Learning
+    - Deep Learning
   Application:
-  - Tracking and Tracing
+    - Tracking and Tracing
 - id: shettyOpticalContainerCode2012
   authors: Ravindra Shetty, Rebeca Cáceres, John Pastrana, Luis Rabelo
   year: 2012
-  title: Optical Container Code Recognition and Its Impact on the Maritime Supply
+  title:
+    Optical Container Code Recognition and Its Impact on the Maritime Supply
     Chain
   venue: 2012 Industrial and Systems Engineering Research Conference
   urls:
-    paper: ''
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    paper: ""
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@inproceedings{shettyOpticalContainerCode,\n author = {Shetty, Ravindra\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@inproceedings{shettyOpticalContainerCode,\n author = {Shetty, Ravindra\
     \ and Cáceres, Rebeca and Pastrana, John and Rabelo, Luis},\n booktitle = {2012\
     \ {{Industrial}} and {{Systems Engineering Research Conference}}},\n langid =\
     \ {english},\n pages = {10},\n title = {Optical {{Container Code Recognition}}\
     \ and Its {{Impact}} on the {{Maritime Supply Chain}}}\n}\n"
   summary: Framework for OCR on containers
-  abstract: Container terminal operators worldwide have expressed the need for accurate
+  abstract:
+    Container terminal operators worldwide have expressed the need for accurate
     real-time accounting of the incoming, outgoing and existing inventory. Container
     Optical Code Recognition (OCR) provides systems which can be integrated with RFID
     tags in order to give more accurate information to Maritime Supply Chain Management.
@@ -2190,31 +2332,33 @@
     technologies integrated with iPADs allow for the deployment of very sophisticated
     but still cost effective systems.
   Objects:
-  - Container/Trailer
+    - Container/Trailer
   CV Tasks: []
   Data Type:
-  - RGB
+    - RGB
   Approach Type: []
   Application:
-  - Item Recognition
+    - Item Recognition
 - id: sonMethodConstructAutomatic2017
   authors: Ngo Tung Son, Bui Ngoc Anh, Tran Quy Ban, Tran Binh Duong
   year: 2017
-  title: A Method to Construct Automatic Object Bounding-Box Estimation System Using
+  title:
+    A Method to Construct Automatic Object Bounding-Box Estimation System Using
     3D Cameras
   venue: International Journal of Science and Research (IJSR)
   urls:
     paper: https://doi.org/10.21275/ART20175316
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@article{sonMethodConstructAutomatic2017,\n author = {Son, Ngo Tung and\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@article{sonMethodConstructAutomatic2017,\n author = {Son, Ngo Tung and\
     \ Anh, Bui Ngoc and Ban, Tran Quy and Duong, Tran Binh},\n date = {2017-07-05},\n\
     \ doi = {10.21275/ART20175316},\n issn = {23197064},\n journaltitle = {International\
     \ Journal of Science and Research (IJSR)},\n langid = {english},\n number = {7},\n\
@@ -2222,8 +2366,9 @@
     \ Automatic Object Bounding-Box Estimation System}} Using {{3D Cameras}}},\n url\
     \ = {https://www.ijsr.net/archive/v6i7/ART20175316.pdf},\n urldate = {2019-11-22},\n\
     \ volume = {6}\n}\n"
-  summary: ''
-  abstract: The measurement of the bounding-box size of a particular object in logistic
+  summary: ""
+  abstract:
+    The measurement of the bounding-box size of a particular object in logistic
     system is critical. It consumes very much effort of the agents when processing
     a new order. Therefore reducing the performance of the agents. This paper introduces
     a method for measuring size of object bounding-box using multiple 3D cameras.
@@ -2241,30 +2386,34 @@
 - id: suhRobustShippingLabel2019
   authors: Sungho Suh, Haebom Lee, Yong Oh Lee, Paul Lukowicz, Jongwoon Hwang
   year: 2019
-  title: Robust Shipping Label Recognition and Validation for Logistics by Using Deep
+  title:
+    Robust Shipping Label Recognition and Validation for Logistics by Using Deep
     Neural Networks
   venue: 2019 IEEE International Conference on Image Processing (ICIP)
   urls:
     paper: https://doi.org/10/gpfqf5
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@inproceedings{suhRobustShippingLabel2019,\n author = {Suh, Sungho and\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@inproceedings{suhRobustShippingLabel2019,\n author = {Suh, Sungho and\
     \ Lee, Haebom and Lee, Yong Oh and Lukowicz, Paul and Hwang, Jongwoon},\n booktitle\
     \ = {2019 {{IEEE International Conference}} on {{Image Processing}} ({{ICIP}})},\n\
     \ date = {2019-09},\n doi = {10/gpfqf5},\n eventtitle = {2019 {{IEEE International\
     \ Conference}} on {{Image Processing}} ({{ICIP}})},\n issn = {2381-8549},\n pages\
     \ = {4509--4513},\n title = {Robust {{Shipping Label Recognition}} and {{Validation}}\
     \ for {{Logistics}} by {{Using Deep Neural Networks}}}\n}\n"
-  summary: Label recognition by first detecting barcodes and then using this information
+  summary:
+    Label recognition by first detecting barcodes and then using this information
     for angle calibration
-  abstract: Shipping labels are widely used in logistics. It is important to ensure
+  abstract:
+    Shipping labels are widely used in logistics. It is important to ensure
     the quality of printing label and to verify contents of the shipping label on
     the package. We developed a verification and recognition method for various types
     of shipping labels by using deep neural networks. The experimental results showed
@@ -2274,15 +2423,15 @@
     generated and collected 25 different types of shipping label dataset. We plan
     to release the dataset on our website1.
   Objects:
-  - Label
+    - Label
   CV Tasks: []
   Data Type:
-  - RGB
+    - RGB
   Approach Type:
-  - Classical Approach
-  - Deep Learning
+    - Classical Approach
+    - Deep Learning
   Application:
-  - Label Recognition
+    - Label Recognition
 - id: thamer3DComputerVisionAutomation2014
   authors: Hendrik Thamer, Daniel Weimer, Henning Kost, Bernd Scholz-Reiter
   year: 2014
@@ -2290,16 +2439,17 @@
   venue: Efficiency and Innovation in Logistics
   urls:
     paper: https://doi.org/10.1007/978-3-319-01378-7_5
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
+    name: ""
     comment: trained on 500 simulated training examples per shape class
-    description: ''
-  bibtex: "@inproceedings{thamer3DComputerVisionAutomation2014,\n author = {Thamer,\
+    description: ""
+  bibtex:
+    "@inproceedings{thamer3DComputerVisionAutomation2014,\n author = {Thamer,\
     \ Hendrik and Weimer, Daniel and Kost, Henning and Scholz-Reiter, Bernd},\n booktitle\
     \ = {Efficiency and {{Innovation}} in {{Logistics}}},\n date = {2014},\n doi =\
     \ {10.1007/978-3-319-01378-7_5},\n editor = {Clausen, Uwe and ten Hompel, Michael\
@@ -2309,7 +2459,8 @@
     \ title = {{{3D-Computer Vision}} for {{Automation}} of {{Logistic Processes}}}\n\
     }\n"
   summary: Pointcloud segmentation for container unloading
-  abstract: The availability of low-cost range sensors has led to several innovative
+  abstract:
+    The availability of low-cost range sensors has led to several innovative
     implementations and solutions in various application fields like object recognition
     and localization, scene understanding, human-robot interaction or measurement
     of objects. The transfer of the corresponding methods and techniques to logistic
@@ -2323,19 +2474,19 @@
     data. The system is evaluated with sensor data from a low-cost range sensor and
     ideal simulated data representing different shaped logistic goods as well.
   Objects:
-  - Container/Trailer
+    - Container/Trailer
   CV Tasks:
-  - Pointcloud Segmetation
+    - Pointcloud Segmetation
   Data Type:
-  - Pointcloud
-  - Real
-  - Synthetic
+    - Pointcloud
+    - Real
+    - Synthetic
   Approach Type:
-  - Classical Approach
-  - Deep Learning
-  - Template Matching
+    - Classical Approach
+    - Deep Learning
+    - Template Matching
   Application:
-  - Depalletization
+    - Depalletization
 - id: thamer3DrobotVisionSystem2013
   authors: Hendrik Thamer, Henning Kost, Daniel Weimer, Bernd Scholz-Reiter
   year: 2013
@@ -2343,17 +2494,19 @@
   venue: 2013 IEEE 18th Conference on Emerging Technologies Factory Automation (ETFA)
   urls:
     paper: https://doi.org/10.1109/ETFA.2013.6648028
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: 54 different packaging real-word scenarios and further 51 synthetically
+    name: ""
+    comment:
+      54 different packaging real-word scenarios and further 51 synthetically
       generated ones
-    description: ''
-  bibtex: "@inproceedings{thamer3DrobotVisionSystem2013,\n author = {Thamer, Hendrik\
+    description: ""
+  bibtex:
+    "@inproceedings{thamer3DrobotVisionSystem2013,\n author = {Thamer, Hendrik\
     \ and Kost, Henning and Weimer, Daniel and Scholz-Reiter, Bernd},\n booktitle\
     \ = {2013 {{IEEE}} 18th {{Conference}} on {{Emerging Technologies Factory Automation}}\
     \ ({{ETFA}})},\n date = {2013-09},\n doi = {10.1109/ETFA.2013.6648028},\n eventtitle\
@@ -2361,7 +2514,8 @@
     \ ({{ETFA}})},\n issn = {1946-0759},\n pages = {1--7},\n title = {A {{3D-robot}}\
     \ Vision System for Automatic Unloading of Containers}\n}\n"
   summary: Pointcloud segmentation for container unloading
-  abstract: Unloading of standard containers within logistic processes is mainly performed
+  abstract:
+    Unloading of standard containers within logistic processes is mainly performed
     manually. Amongst gripping technology, the development of a robot vision system
     for recognizing different shaped logistic goods is a major technical obstacle
     for developing robotic systems for automatic unloading of containers. Goods can
@@ -2376,37 +2530,40 @@
     in point cloud data and combined to complete logistic goods. The system is evaluated
     with real and simulated sensor data from different packaging scenarios.
   Objects:
-  - Container/Trailer
+    - Container/Trailer
   CV Tasks:
-  - Pointcloud Segmetation
+    - Pointcloud Segmetation
   Data Type:
-  - Pointcloud
-  - Real
-  - Synthetic
+    - Pointcloud
+    - Real
+    - Synthetic
   Approach Type:
-  - Classical Approach
-  - Template Matching
+    - Classical Approach
+    - Template Matching
   Application:
-  - Depalletization
+    - Depalletization
 - id: vargaImprovedAutonomousLoad2015
   authors: Robert Varga, Arthur Costea, Sergiu Nedevschi
   year: 2015
   title: Improved Autonomous Load Handling with Stereo Cameras
-  venue: 2015 IEEE International Conference on Intelligent Computer Communication
+  venue:
+    2015 IEEE International Conference on Intelligent Computer Communication
     and Processing (ICCP)
   urls:
     paper: https://doi.org/10.1109/ICCP.2015.7312639
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: training dataset Viano2 contains 7124 images with 9047 pallets and the
+    name: ""
+    comment:
+      training dataset Viano2 contains 7124 images with 9047 pallets and the
       test dataset Viano3-5 contains 467 images with 891 pallets.
-    description: ''
-  bibtex: "@inproceedings{vargaImprovedAutonomousLoad2015,\n author = {Varga, Robert\
+    description: ""
+  bibtex:
+    "@inproceedings{vargaImprovedAutonomousLoad2015,\n author = {Varga, Robert\
     \ and Costea, Arthur and Nedevschi, Sergiu},\n booktitle = {2015 {{IEEE International\
     \ Conference}} on {{Intelligent Computer Communication}} and {{Processing}} ({{ICCP}})},\n\
     \ date = {2015-09},\n doi = {10.1109/ICCP.2015.7312639},\n eventtitle = {2015\
@@ -2415,9 +2572,11 @@
     \ location = {{Cluj-Napoca, Romania}},\n pages = {251--256},\n publisher = {{IEEE}},\n\
     \ title = {Improved Autonomous Load Handling with Stereo Cameras},\n url = {http://ieeexplore.ieee.org/document/7312639/},\n\
     \ urldate = {2019-05-09}\n}\n"
-  summary: pallet detection and localization for an autonomous forklift using a stereo
+  summary:
+    pallet detection and localization for an autonomous forklift using a stereo
     camera
-  abstract: We present newly added modules for our autonomous load handling system.
+  abstract:
+    We present newly added modules for our autonomous load handling system.
     The stereo camera system provides information about the scene in front of the
     automated forklift. A new alternative module for pallet detection is described.
     Several processing modules for unloading operations are also presented. Our system
@@ -2425,34 +2584,36 @@
     show that it is capable of providing a sufficiently accurate position of the pallets
     in order to perform loading and unloading operations in multiple scenarios.
   Objects:
-  - Pallet
+    - Pallet
   CV Tasks: []
   Data Type:
-  - Real
-  - RGB
+    - Real
+    - RGB
   Approach Type:
-  - Classical Approach
-  - Template Matching
+    - Classical Approach
+    - Template Matching
   Application:
-  - Pallet Handling
+    - Pallet Handling
 - id: vargaRobustPalletDetection2016
   authors: Robert Varga, Sergiu Nedevschi
   year: 2016
-  title: 'Robust Pallet Detection for Automated Logistics Operations:'
-  venue: Proceedings of the 11th Joint Conference on Computer Vision, Imaging and
+  title: "Robust Pallet Detection for Automated Logistics Operations:"
+  venue:
+    Proceedings of the 11th Joint Conference on Computer Vision, Imaging and
     Computer Graphics Theory and Applications
   urls:
     paper: https://doi.org/10.5220/0005674704700477
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@inproceedings{vargaRobustPalletDetection2016,\n author = {Varga, Robert\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@inproceedings{vargaRobustPalletDetection2016,\n author = {Varga, Robert\
     \ and Nedevschi, Sergiu},\n booktitle = {Proceedings of the 11th {{Joint Conference}}\
     \ on {{Computer Vision}}, {{Imaging}} and {{Computer Graphics Theory}} and {{Applications}}},\n\
     \ date = {2016},\n doi = {10.5220/0005674704700477},\n eventtitle = {International\
@@ -2463,47 +2624,52 @@
     \ title = {Robust {{Pallet Detection}} for {{Automated Logistics Operations}}:},\n\
     \ url = {http://www.scitepress.org/DigitalLibrary/Link.aspx?doi=10.5220/0005674704700477},\n\
     \ urldate = {2019-02-27}\n}\n"
-  summary: pallet detection and localization for an autonomous forklift using a stereo
+  summary:
+    pallet detection and localization for an autonomous forklift using a stereo
     camera
   abstract: Object Detection, Pallet Detection, Stereo Reconstruction.
   Objects:
-  - Pallet
+    - Pallet
   CV Tasks: []
   Data Type:
-  - Real
-  - RGB
+    - Real
+    - RGB
   Approach Type:
-  - Classical Approach
-  - Template Matching
+    - Classical Approach
+    - Template Matching
   Application:
-  - Pallet Handling
+    - Pallet Handling
 - id: vargaVisionbasedAutonomousLoad2014
   authors: Robert Varga, Sergiu Nedevschi
   year: 2014
   title: Vision-Based Autonomous Load Handling for Automated Guided Vehicles
-  venue: 2014 IEEE 10th International Conference on Intelligent Computer Communication
+  venue:
+    2014 IEEE 10th International Conference on Intelligent Computer Communication
     and Processing (ICCP)
   urls:
     paper: https://doi.org/10.1109/ICCP.2014.6937003
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@inproceedings{vargaVisionbasedAutonomousLoad2014,\n author = {Varga, Robert\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@inproceedings{vargaVisionbasedAutonomousLoad2014,\n author = {Varga, Robert\
     \ and Nedevschi, Sergiu},\n booktitle = {2014 {{IEEE}} 10th {{International Conference}}\
     \ on {{Intelligent Computer Communication}} and {{Processing}} ({{ICCP}})},\n\
     \ date = {2014-09},\n doi = {10.1109/ICCP.2014.6937003},\n eventtitle = {2014\
     \ {{IEEE}} 10th {{International Conference}} on {{Intelligent Computer Communication}}\
     \ and {{Processing}} ({{ICCP}})},\n issn = {null},\n pages = {239--244},\n title\
     \ = {Vision-Based Autonomous Load Handling for Automated Guided Vehicles}\n}\n"
-  summary: pallet detection and localization for an autonomous forklift using a stereo
+  summary:
+    pallet detection and localization for an autonomous forklift using a stereo
     camera
-  abstract: The paper presents a method for automatically detecting pallets and estimating
+  abstract:
+    The paper presents a method for automatically detecting pallets and estimating
     their position and orientation. For detection we use a sliding window approach
     with efficient candidate generation, fast integral features and a boosted classifier.
     Specific information regarding the detection task such as region of interest,
@@ -2512,36 +2678,40 @@
     Semi-Global Matching aggregation with Census descriptors. Offline test results
     show that successful detection is possible under 0.5 seconds.
   Objects:
-  - Pallet
+    - Pallet
   CV Tasks: []
   Data Type:
-  - Real
-  - RGB
+    - Real
+    - RGB
   Approach Type:
-  - Classical Approach
-  - Template Matching
+    - Classical Approach
+    - Template Matching
   Application:
-  - Pallet Handling
+    - Pallet Handling
 - id: vignaliPerformanceEvaluationCost2019
-  authors: Giuseppe Vignali, Eleonora Bottani, Letizia Tebaldi, Luciano Di Donato,
+  authors:
+    Giuseppe Vignali, Eleonora Bottani, Letizia Tebaldi, Luciano Di Donato,
     Alessandra Ferraro, Marco Pirozzi, Laura Tomassini
   year: 2019
-  title: Performance Evaluation and Cost Analysis of a 2D Laser Scanner to Enhance
+  title:
+    Performance Evaluation and Cost Analysis of a 2D Laser Scanner to Enhance
     the Operator’s Safety
-  venue: 2019 IEEE International Conference on Engineering, Technology and Innovation
+  venue:
+    2019 IEEE International Conference on Engineering, Technology and Innovation
     (ICE/ITMC)
   urls:
     paper: https://doi.org/10.1109/ICE.2019.8792567
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@inproceedings{vignaliPerformanceEvaluationCost2019,\n author = {Vignali,\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@inproceedings{vignaliPerformanceEvaluationCost2019,\n author = {Vignali,\
     \ Giuseppe and Bottani, Eleonora and Tebaldi, Letizia and Donato, Luciano Di and\
     \ Ferraro, Alessandra and Pirozzi, Marco and Tomassini, Laura},\n booktitle =\
     \ {2019 {{IEEE International Conference}} on {{Engineering}}, {{Technology}} and\
@@ -2551,7 +2721,8 @@
     \ title = {Performance Evaluation and Cost Analysis of a {{2D}} Laser Scanner\
     \ to Enhance the Operator’s Safety}\n}\n"
   summary: operator safety and evaluate the performance of a 2D laser scanner
-  abstract: The so-called fourth industrial revolution (Industry 4.0) we are facing
+  abstract:
+    The so-called fourth industrial revolution (Industry 4.0) we are facing
     at present let emerge powerful tools and new technologies; due to the high frequency
     of accidents that happen at the workplace related to these innovations, necessarily
     new devices are continuously developed to enhance the operators' safety. Among
@@ -2564,25 +2735,27 @@
   Data Type: []
   Approach Type: []
   Application:
-  - Safety
+    - Safety
 - id: weichertMarkerbasedTrackingSupport2010
-  authors: F. Weichert, D. Fiedler, J. Hegenberg, H. Müller, C. Prasse, M. Roidl,
+  authors:
+    F. Weichert, D. Fiedler, J. Hegenberg, H. Müller, C. Prasse, M. Roidl,
     M. ten Hompel
   year: 2010
   title: Marker-Based Tracking in Support of RFID Controlled Material Flow Systems
   venue: Logistics Research
   urls:
     paper: https://doi.org/10.1007/s12159-010-0025-6
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@article{weichertMarkerbasedTrackingSupport2010,\n author = {Weichert,\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@article{weichertMarkerbasedTrackingSupport2010,\n author = {Weichert,\
     \ F. and Fiedler, D. and Hegenberg, J. and Müller, H. and Prasse, C. and Roidl,\
     \ M. and ten Hompel, M.},\n date = {2010-06-01},\n doi = {10.1007/s12159-010-0025-6},\n\
     \ issn = {1865-0368},\n journaltitle = {Logistics Research},\n langid = {english},\n\
@@ -2590,9 +2763,11 @@
     \ = {Logist. Res.},\n title = {Marker-Based Tracking in Support of {{RFID}} Controlled\
     \ Material Flow Systems},\n url = {https://doi.org/10.1007/s12159-010-0025-6},\n\
     \ urldate = {2022-03-23},\n volume = {2}\n}\n"
-  summary: Continuous detection, localization, and identification of parcels and bins
+  summary:
+    Continuous detection, localization, and identification of parcels and bins
     in logistics processes
-  abstract: 'In this study, we present a novel approach for continuous detection,
+  abstract:
+    "In this study, we present a novel approach for continuous detection,
     localization, and identification of parcels and bins in automated facility logistics
     systems. It presents a distinct departure from the traditional system design:
     light barriers and barcode readers are substituted by low-cost cameras and few
@@ -2603,42 +2778,44 @@
     visual markers attached to parcels or bins. In addition, we use information from
     the RFID system to narrow the decision space for detection and identification.
     From an economic point of view, this approach can lower the costs of changing
-    a material flow system.'
+    a material flow system."
   Objects:
-  - Parcel
-  - Container/Trailer
+    - Parcel
+    - Container/Trailer
   CV Tasks: []
   Data Type:
-  - RGB
+    - RGB
   Approach Type:
-  - Fiducial Markers
-  - Classical Approach
+    - Fiducial Markers
+    - Classical Approach
   Application:
-  - Tracking and Tracing
+    - Tracking and Tracing
 - id: wudhikarnDeepLearningBarcode2022
   authors: Ratapol Wudhikarn, Phasit Charoenkwan, Kanokwan Malang
   year: 2022
-  title: 'Deep Learning in Barcode Recognition: A Systematic Literature Review'
+  title: "Deep Learning in Barcode Recognition: A Systematic Literature Review"
   venue: IEEE Access
   urls:
     paper: https://doi.org/10.1109/ACCESS.2022.3143033
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@article{wudhikarnDeepLearningBarcode2022,\n author = {Wudhikarn, Ratapol\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@article{wudhikarnDeepLearningBarcode2022,\n author = {Wudhikarn, Ratapol\
     \ and Charoenkwan, Phasit and Malang, Kanokwan},\n date = {2022},\n doi = {10.1109/ACCESS.2022.3143033},\n\
     \ eventtitle = {{{IEEE Access}}},\n issn = {2169-3536},\n journaltitle = {IEEE\
     \ Access},\n pages = {8049--8072},\n shorttitle = {Deep {{Learning}} in {{Barcode\
     \ Recognition}}},\n title = {Deep {{Learning}} in {{Barcode Recognition}}: {{A\
     \ Systematic Literature Review}}},\n volume = {10}\n}\n"
   summary: review on barcode detection
-  abstract: The use of deep learning (DL) for barcode recognition and analysis has
+  abstract:
+    The use of deep learning (DL) for barcode recognition and analysis has
     achieved remarkable success and has attracted great attention in various domains.
     Unlike other barcode recognition methods, DL-based approaches can significantly
     improve the speed and accuracy of both barcode detection and decoding. However,
@@ -2656,12 +2833,12 @@
     we conclude with a discussion on the crucial challenges of DL with respect to
     barcode recognition, incorporating promising directions for future research development.
   Objects:
-  - Label
+    - Label
   CV Tasks: []
   Data Type: []
   Approach Type: []
   Application:
-  - Label Recognition
+    - Label Recognition
 - id: xiaoPalletRecognitionLocalization2017
   authors: Junhao Xiao, Huimin Lu, Lilian Zhang, Jianhua Zhang
   year: 2017
@@ -2669,16 +2846,17 @@
   venue: International Journal of Advanced Robotic Systems
   urls:
     paper: https://doi.org/10.1177/1729881417737799
-    project: ''
-    arxiv: ''
-    code: ''
-    dataset: ''
-    venue: ''
+    project: ""
+    arxiv: ""
+    code: ""
+    dataset: ""
+    venue: ""
   dataset:
-    name: ''
-    comment: ''
-    description: ''
-  bibtex: "@article{xiaoPalletRecognitionLocalization2017,\n author = {Xiao, Junhao\
+    name: ""
+    comment: ""
+    description: ""
+  bibtex:
+    "@article{xiaoPalletRecognitionLocalization2017,\n author = {Xiao, Junhao\
     \ and Lu, Huimin and Zhang, Lilian and Zhang, Jianhua},\n date = {2017-11},\n\
     \ doi = {10.1177/1729881417737799},\n issn = {1729-8814, 1729-8814},\n journaltitle\
     \ = {International Journal of Advanced Robotic Systems},\n langid = {english},\n\
@@ -2686,7 +2864,8 @@
     \ Localization Using an {{RGB-D}} Camera},\n url = {http://journals.sagepub.com/doi/10.1177/1729881417737799},\n\
     \ urldate = {2019-02-27},\n volume = {14}\n}\n"
   summary: pallet recognition and localization by using an RGBD camera
-  abstract: This article reports our research results on an autonomous forklift, with
+  abstract:
+    This article reports our research results on an autonomous forklift, with
     the focus on pallet recognition and localization using an RGB-D camera. It is
     a fundamental issue for unmanned storehouses, which enables the forklift to insert
     the forks within the pallet’s slots for loading and unloading packages. Particularly,
@@ -2703,12 +2882,12 @@
     the storehouse; and furthermore, the method has a good expansibility to allow
     the storehouse to adopt new pallets easily.
   Objects:
-  - Pallet
+    - Pallet
   CV Tasks: []
   Data Type:
-  - Real
-  - RGBD
+    - Real
+    - RGBD
   Approach Type:
-  - Classical Approach
+    - Classical Approach
   Application:
-  - Pallet Handling
+    - Pallet Handling

@@ -5,7 +5,7 @@ description: 'Online overview of our <a href="https://arxiv.org/abs/2304.06009" 
 url: https://a-nau.github.io
 baseurl: /cv-in-logistics
 paginate: 5
-permalink: pretty
+permalink: /:title
 
 # About/contact
 author:
@@ -16,8 +16,6 @@ author:
 # Gems
 plugins:
   - jekyll-paginate
-
-permalink: /:title
 
 # Custom vars
 version: 1.1.0

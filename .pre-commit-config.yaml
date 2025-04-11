@@ -1,0 +1,54 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+        exclude: ^_config\.yaml$
+      - id: check-added-large-files
+
+  - repo: https://github.com/psf/black
+    rev: 23.9.1
+    hooks:
+      - id: black
+        language_version: python3.9
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.1.6
+    hooks:
+      - id: ruff
+        args: ["--select", "F,E,W,C90"]
+        additional_dependencies: ["ruff"]
+        language_version: python3.9
+
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.12.0
+    hooks:
+      - id: isort
+        name: isort (import sorter)
+        language_version: python3.9
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.5.1
+    hooks:
+      - id: mypy
+        additional_dependencies: [types-PyYAML]
+
+  - repo: https://github.com/executablebooks/mdformat
+    rev: 0.7.17
+    hooks:
+      - id: mdformat
+        name: mdformat (Markdown formatter)
+        additional_dependencies:
+          - mdformat-gfm # GitHub Flavored Markdown
+          - mdformat-frontmatter # YAML frontmatter
+          - mdformat-footnote # Footnotes
+
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v3.0.0
+    hooks:
+      - id: prettier
+        name: prettier (YAML formatter)
+        files: \.ya?ml$
+        exclude: ^_config\.yaml$
