@@ -1,6 +1,4 @@
 import csv
-from pathlib import Path
-from typing import List
 
 import yaml
 
@@ -10,7 +8,7 @@ def load_csv(path, key=None):
         dict_reader = csv.DictReader(file)
         data = [dict(r) for r in dict_reader]
     if key:
-        data = {l[key]: l for l in data}
+        data = {line[key]: line for line in data}
     return data
 
 
@@ -30,7 +28,7 @@ def load_yaml(path, key=None):
     with open(path, encoding="utf-8") as f:
         data = yaml.load(f, Loader=yaml.SafeLoader)
     if key:
-        data = {l[key]: l for l in data}
+        data = {line[key]: line for line in data}
     return data
 
 

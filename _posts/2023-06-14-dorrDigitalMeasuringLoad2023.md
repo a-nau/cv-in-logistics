@@ -4,7 +4,7 @@ id: dorrDigitalMeasuringLoad2023
 authors: Laura Dörr, Katharina Glock, Felix Brandt, Alexander Naumann, Martin Pouls
 year: 2023
 title: A Digital Measuring and Load Planning System for Large Transport Assets
-venue: "2023 International Scientific Symposium on Logistics: Conference Volume"
+venue: '2023 International Scientific Symposium on Logistics: Conference Volume'
 tags: c06,c99,d01,d03,d51,m01,m03,a04,a64,t65,t06
 urls:
   paper: https://slub.qucosa.de/api/qucosa%3A85570/attachment/ATT-0/

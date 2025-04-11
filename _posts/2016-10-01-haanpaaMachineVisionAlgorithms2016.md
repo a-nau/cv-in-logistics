@@ -17,14 +17,7 @@ dataset:
   name: ''
   comment: ''
   description: ''
-bibtex: "@inproceedings{haanpaaMachineVisionAlgorithms2016,\n author = {Haanpaa, Doug\
-  \ and Beach, Glenn and Cohen, Charles J.},\n booktitle = {2016 {{IEEE Applied Imagery\
-  \ Pattern Recognition Workshop}} ({{AIPR}})},\n date = {2016-10},\n doi = {10.1109/AIPR.2016.8010590},\n\
-  \ eventtitle = {2016 {{IEEE Applied Imagery Pattern Recognition Workshop}} ({{AIPR}})},\n\
-  \ isbn = {978-1-5090-3284-6},\n langid = {english},\n location = {{Washington, DC,\
-  \ USA}},\n pages = {1--8},\n publisher = {{IEEE}},\n title = {Machine Vision Algorithms\
-  \ for Robust Pallet Engagement and Stacking},\n url = {http://ieeexplore.ieee.org/document/8010590/},\n\
-  \ urldate = {2019-05-09}\n}\n"
+bibtex: "@inproceedings{haanpaaMachineVisionAlgorithms2016,\n author = {Haanpaa, Doug and Beach, Glenn and Cohen, Charles J.},\n booktitle = {2016 {{IEEE Applied Imagery Pattern Recognition Workshop}} ({{AIPR}})},\n date = {2016-10},\n doi = {10.1109/AIPR.2016.8010590},\n eventtitle = {2016 {{IEEE Applied Imagery Pattern Recognition Workshop}} ({{AIPR}})},\n isbn = {978-1-5090-3284-6},\n langid = {english},\n location = {{Washington, DC, USA}},\n pages = {1--8},\n publisher = {{IEEE}},\n title = {Machine Vision Algorithms for Robust Pallet Engagement and Stacking},\n url = {http://ieeexplore.ieee.org/document/8010590/},\n urldate = {2019-05-09}\n}\n"
 summary: pallet engagement in the context of military logistics
 abstract: ''
 ---
@@ -38,4 +31,3 @@ abstract: ''
 ```
 {{page.bibtex}}
 ```
-            

@@ -41,7 +41,7 @@
 .tabulator-authors {
     color: gray;
     font-size: 0.8em;
-    
+
 }
 
 .literature-wide {
@@ -51,13 +51,13 @@
 @media screen and (min-width: 1200px) {
   /* your styles here */
 .literature-wide {
-    width: 75vw; 
+    width: 75vw;
     max-width: unset;
 }
 }
 
-/* Applications */ 
-/* 
+/* Applications */
+/*
 .tabulator-chip-tracking-and-tracing {
     background-color: red;
 }
@@ -106,7 +106,7 @@
     background-color: aquamarine;
 } */
 
-/* Approach types */ 
+/* Approach types */
 /* .tabulator-chip-deep-learning {
     background-color: green;
 }
@@ -123,7 +123,7 @@
     background-color: darkcyan;
 }
 
-/* CV task */ 
+/* CV task */
 /*
 .tabulator-chip-3d-dimension-estimation {
     background-color: aquamarine;
@@ -177,7 +177,7 @@
     background-color: aliceblue;
 } */
 
-/* objects */ 
+/* objects */
 
 /* .tabulator-chip-pallet {
     background-color: aqua;
